@@ -24,46 +24,22 @@
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav nav-tabs nav ms-auto mb-2 mb-lg-0 border-0" id="myTab" role="tablist">
                   <li class="nav-item border-0" >
-                    <a class="nav-link active border-0 " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">關於我們</a>
+                    <a class="nav-link active border-0 changeHomeTab" href="#about" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">關於我們</a>
                   </li>
                   <li class="nav-item dropdown ">
-                    <a class="nav-link border-0" href="#benifit" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab">客製化好處</a>
-                    <!-- <a class="nav-link active dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">產品資訊</a> -->
-                    <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">客製化電源組</a></li>
-                        <li class="dropdown dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PDU 電源分配表</a>
-                            <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1">
-                                <li><a class="dropdown-item" href="#">基本型電源</a></li>
-                                <li class="dropdown dropend">
-                                    <a class="dropdown-item" href="#">基本型電源</a>
-                                </li>
-                                <li><a class="dropdown-item" href="#">基本型電源</a></li>
-                                <li><a class="dropdown-item" href="#">基本型電源</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown dropend">
-                            <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Multilevel 2</a>
-                            <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1">
-                                <li><a class="dropdown-item" href="#">2 Action</a></li>
-                                <li><a class="dropdown-item" href="#">2 Another action</a></li>
-                                <li><a class="dropdown-item" href="#">2 Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul> -->
+                    <a class="nav-link border-0 changeHomeTab" href="#benifit">客製化好處</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link border-0" href="#advanage" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab">公司優勢</a>
+                    <a class="nav-link border-0 changeHomeTab" href="#advanage" >公司優勢</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link border-0" href="#product" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab">產品內容</a>
+                    <a class="nav-link border-0 changeHomeTab" href="#product">產品內容</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link  border-0 " data-bs-toggle="tab" data-bs-target="#productInformation" type="button" role="tab" aria-controls="productInformation" >產品資訊</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link border-0" href="#contact" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab">聯繫我們</a>
+                    <a class="nav-link border-0 changeHomeTab" href="#contact" >聯繫我們</a>
                   </li>
                 </ul>
 
@@ -304,11 +280,39 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="home-environment" id="environment">
+              <!-- <div class="tab-pane fade" id="productInformation" role="tabpanel" aria-labelledby="product-tab">
+                <div class="home-environment" id="environment">
+                 <div class="container-fluid">
+                   <div class="text-center">
+                     <p class="fw-bold pt-3 mb-0 font-18px" >產品資訊</p>
+                     <p class="fw-bold font-32px fcolor-green">INFORMATION</p>
+                   </div>
+                   <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                     <li class="nav-item" role="presentation">
+                       <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">全部</button>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                       <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">工廠外觀</button>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                       <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"  >工作區域</button>
+                     </li>
+                   </ul>
+                   <div class="tab-content" id="pills-tabContent">
+                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">..121.</div>
+                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">.1212..</div>
+                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" >121212...</div>
+                   </div>
+                 </div>
+               </div>
+             </div> -->
+            </div>
+            <div class="tab-pane fade" id="productInformation" role="tabpanel" aria-labelledby="product-tab">
+               <div class="home-environment" id="environment">
                 <div class="container-fluid">
                   <div class="text-center">
-                    <p class="fw-bold pt-3 mb-0 font-18px" >工作環境</p>
-                    <p class="fw-bold font-32px fcolor-green">ENVIRONMENT</p>
+                    <p class="fw-bold pt-3 mb-0 font-18px" >產品資訊</p>
+                    <p class="fw-bold font-32px fcolor-green">INFORMATION</p>
                   </div>
                   <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -322,14 +326,102 @@
                     </li>
                   </ul>
                   <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">..121.</div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">.1212..</div>
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" >121212...</div>
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"  >
+                      <div >
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3" >
+                          <div class="col mb-3">
+                            <div class="card  border-0 text-center" >
+                              <span class="d-inline-block "><img src="images/test_800X600_1.jpg" class="rounded img" alt=""></span>
+                              <div class="card-img-overlay  bottom-0  ">
+                                <h5 class="card-title "><span class="bg-dark text-white p-2">電源分配器PDU</span></h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-3 ">
+                            <div class="card  border-0 text-center" >
+                              <span class="d-inline-block "><img src="images/test_800X600_2.jpg" class="rounded img" alt="..."></span>
+                              <div class="card-img-overlay  bottom-0  ">
+                                <h5 class="card-title "><span class="bg-dark text-white p-2">機房、機櫃插頭配線</span></h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-3 ">
+                            <div class="card  border-0 text-center" >
+                              <span class="d-inline-block "><img src="images/test_800X600_3.jpg" class="rounded img" alt="..."></span>
+                              <div class="card-img-overlay  bottom-0  ">
+                                <h5 class="card-title "><span class="bg-dark text-white p-2">電源連接線 UL 插頭射出成型</span></h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-3 ">
+                            <div class="card  border-0 text-center" >
+                              <span class="d-inline-block "><img src="images/test_800X600_4.jpg" class="rounded img" alt="..."></span>
+                              <div class="card-img-overlay  bottom-0  ">
+                                <h5 class="card-title "><span class="bg-dark text-white p-2">馬達連接線、馬達控制線</span></h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-3 ">
+                            <div class="card  border-0 text-center" >
+                              <span class="d-inline-block "><img src="images/test_800X600_5.jpg" class="rounded img" alt="..."></span>
+                              <div class="card-img-overlay  bottom-0  ">
+                                <h5 class="card-title "><span class="bg-dark text-white p-2">網路線製造</span></h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col mb-3 ">
+                            <div class="card  border-0 text-center" >
+                              <span class="d-inline-block "><img src="images/test_800X600_6.jpg" class="rounded img" alt="..."></span>
+                              <div class="card-img-overlay  bottom-0  ">
+                                <h5 class="card-title "><span class="bg-dark text-white p-2">縫紉機控制線</span></h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" >
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3" >
+                      <div class="col mb-3">
+                        <div class="card  border-0 text-center" >
+                          <span class="d-inline-block "><img src="images/test_800X600_1.jpg" class="rounded img" alt=""></span>
+                          <div class="card-img-overlay  bottom-0  ">
+                            <h5 class="card-title "><span class="bg-dark text-white p-2">電源分配器PDU</span></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-3 ">
+                        <div class="card  border-0 text-center" >
+                          <span class="d-inline-block "><img src="images/test_800X600_2.jpg" class="rounded img" alt="..."></span>
+                          <div class="card-img-overlay  bottom-0  ">
+                            <h5 class="card-title "><span class="bg-dark text-white p-2">機房、機櫃插頭配線</span></h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-3 ">
+                        <div class="card  border-0 text-center" >
+                          <span class="d-inline-block "><img src="images/test_800X600_3.jpg" class="rounded img" alt="..."></span>
+                          <div class="card-img-overlay  bottom-0  ">
+                            <h5 class="card-title "><span class="bg-dark text-white p-2">電源連接線 UL 插頭射出成型</span></h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" >
+                      <div class="col mb-3">
+                        <div class="card  border-0 text-center" >
+                          <span class="d-inline-block "><img src="images/test_800X600_1.jpg" class="rounded img" alt=""></span>
+                          <div class="card-img-overlay  bottom-0  ">
+                            <h5 class="card-title "><span class="bg-dark text-white p-2">電源分配器PDU</span></h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div> -->
+              </div>
             </div>
-            <div class="tab-pane fade" id="productInformation" role="tabpanel" aria-labelledby="product-tab">12312312312312312312產品資訊...</div>
           </div>
     </div>
     <div class="footer bg-dark text-white" id="contact">
@@ -353,9 +445,18 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="package/bootstrap.min.js"></script>
     <script>
-      var triggerEl = document.querySelector('#navbarSupportedContent a[data-bs-target="#productInformation"]')
-      bootstrap.Tab.getOrCreateInstance(triggerEl).show() // Select tab by name
+      var narbar = document.getElementById('myTab')
+      $("#myTab .nav-item a.changeHomeTab").on("click", function (e) {
+        var triggerEl = document.querySelector('#navbarSupportedContent a[data-bs-target="#home"]')
+        bootstrap.Tab.getOrCreateInstance(triggerEl).show() // Select tab by name
+        var hrefLink = $(this).attr("href");
+        $("html,body").animate({
+            scrollTop: $(hrefLink).offset().top //直接到相對位置
+        },600);
+      });
+      
 
+      
       
     document.addEventListener('DOMContentLoaded', function () {
       //滑鼠移入時改變背景顏色（藍）

@@ -23,7 +23,7 @@
     margin-top: 70px;
     width: 100%;
     height: 1000px;
-    background-image: url(/images/banner3.jpg);
+    background-image: url(../images/banner3.jpg);
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
