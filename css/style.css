@@ -29,6 +29,16 @@
     background-size: cover;
     position: relative;
 }
+.productBanner{
+    margin-top: 70px;
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/test_2560X1707.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 .bannerText{
     position: absolute;
     left: 0;
@@ -133,9 +143,26 @@
 .home-product .card-img-overlay{
     top: auto;
 }
-.home-environment{
-    padding: 100px 0;
+.product-environment{
+    padding: 50px 0;
     overflow: hidden;  
+}
+#InformationContent .card{
+    box-shadow: 3px 3px 10px 3px #00000017;
+}
+
+#InformationContent .card:hover{
+    animation:scale 0.5s ease-in-out alternate;
+    transform:scale(1.05) ;
+}
+@keyframes scale{
+    0%{
+        transform:scale(1.0) ;
+    }
+    100%{
+        transform:scale(1.05) ;
+    }
+
 }
 .footer{
     padding: 50px 0;

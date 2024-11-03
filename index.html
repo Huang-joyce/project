@@ -36,7 +36,7 @@
                     <a class="nav-link border-0 changeHomeTab" href="#product">產品內容</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link  border-0 " data-bs-toggle="tab" data-bs-target="#productInformation" type="button" role="tab" aria-controls="productInformation" >產品資訊</a>
+                    <a class="nav-link  border-0 "  href="product.html">產品資訊</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link border-0 changeHomeTab" href="#contact" >聯繫我們</a>
@@ -314,22 +314,22 @@
                     <p class="fw-bold pt-3 mb-0 font-18px" >產品資訊</p>
                     <p class="fw-bold font-32px fcolor-green">INFORMATION</p>
                   </div>
-                  <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                  <ul class="nav nav-pills mb-3 justify-content-center" id="InformationTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">全部</button>
+                      <button class="nav-link active" id="productAll" data-bs-toggle="pill" data-bs-target="#productAll" type="button" role="tab" aria-controls="productAll" aria-selected="true">全部</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">工廠外觀</button>
+                      <button class="nav-link" id="product2" >工廠外觀</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"  >工作區域</button>
+                      <button class="nav-link" id="product3" >工作區域</button>
                     </li>
                   </ul>
-                  <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"  >
+                  <div class="tab-content" id="InformationContent">
+                    <div class="tab-pane  show active" id="productAll-content" role="tabpanel" aria-labelledby="pills-home-tab" >
                       <div >
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3" >
-                          <div class="col mb-3">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3"  >
+                          <div class="col mb-3" >
                             <div class="card  border-0 text-center" >
                               <span class="d-inline-block "><img src="images/test_800X600_1.jpg" class="rounded img" alt=""></span>
                               <div class="card-img-overlay  bottom-0  ">
@@ -345,7 +345,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col mb-3 ">
+                          <div class="col mb-3 " >
                             <div class="card  border-0 text-center" >
                               <span class="d-inline-block "><img src="images/test_800X600_3.jpg" class="rounded img" alt="..."></span>
                               <div class="card-img-overlay  bottom-0  ">
@@ -361,7 +361,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="col mb-3 ">
+                          <div class="col mb-3 " >
                             <div class="card  border-0 text-center" >
                               <span class="d-inline-block "><img src="images/test_800X600_5.jpg" class="rounded img" alt="..."></span>
                               <div class="card-img-overlay  bottom-0  ">
@@ -380,7 +380,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" >
+                    <div class="tab-pane " id="product2-content" role="tabpanel" aria-labelledby="pills-profile-tab" >
                       <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3" >
                       <div class="col mb-3">
                         <div class="card  border-0 text-center" >
@@ -408,7 +408,7 @@
                       </div>
                     </div>
                     </div>
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" >
+                    <div class="tab-pane " id="product3-content" role="tabpanel" >
                       <div class="col mb-3">
                         <div class="card  border-0 text-center" >
                           <span class="d-inline-block "><img src="images/test_800X600_1.jpg" class="rounded img" alt=""></span>
@@ -445,19 +445,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="package/bootstrap.min.js"></script>
     <script>
-      var narbar = document.getElementById('myTab')
-      $("#myTab .nav-item a.changeHomeTab").on("click", function (e) {
-        var triggerEl = document.querySelector('#navbarSupportedContent a[data-bs-target="#home"]')
-        bootstrap.Tab.getOrCreateInstance(triggerEl).show() // Select tab by name
-        var hrefLink = $(this).attr("href");
-        $("html,body").animate({
-            scrollTop: $(hrefLink).offset().top //直接到相對位置
-        },600);
-      });
-      
-
-      
-      
     document.addEventListener('DOMContentLoaded', function () {
       //滑鼠移入時改變背景顏色（藍）
       $('#benifit .card_circle').on('mouseover',function(e){
