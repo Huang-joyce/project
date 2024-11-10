@@ -63,6 +63,9 @@
 .img{
     max-width: 100%;
 }
+.card_content_img{
+    max-width: 300px;
+}
 .home-about{
     padding: 100px 0;
     overflow: hidden;
