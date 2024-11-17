@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-submenu@3.0.1/dist/css/bootstrap-submenu.css">
+    <link rel="stylesheet" href="package/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Orandatrading</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-lg header py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Orandatrading</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-tabs nav ms-auto mb-2 mb-lg-0 border-0" id="myTab" role="tablist">
+                        <li class="nav-item border-0">
+                            <a class="nav-link  border-0 " href="index.html">首頁</a>
+                        </li>
+                        <li class="nav-item border-0">
+                            <a class="nav-link  border-0 " href="aboutUs.html">關於我們</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle border-0" data-bs-toggle="dropdown" href="#"
+                                role="button" aria-expanded="false">產品內容</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a class="dropdown-item" href="product.html?">全部產品</a></li>
+                                <li><a class="dropdown-item" href="product.html?#product2">基本型電源組</a></li>
+                                <li><a class="dropdown-item" href="product.html?#product3">數位型電源組</a></li>
+                                <li><a class="dropdown-item" href="product.html?#product4">NEMA轉接線/轉接頭</a></li>
+                                <li><a class="dropdown-item" href="product.html?#product5">客製化</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border-0 " href="contact.html">聯繫我們</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="positoin-relative product-environment mt-5">
+        <div class="container-lg">
+          <div class="text-center mb-5">
+            <p class="fw-bold pt-3 mb-0 font-18px" >產品詳情</p>
+            <p class="fw-bold font-32px fcolor-green">PRODUCT</p>
+          </div>
+          <div class="mb-5" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="d-flex flex-wrap" >
+                <div class="col-12 col-md-5">
+                    <span class="d-inline-block"><img class="img" src="images/Products/PowerstripDigital.jpg" alt=""></span>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div>
+                        <p class="fw-bold font-24px">8-Outlet Metal Heavy Duty PDU with Display</p>
+                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <ul>
+                            <li>規格</li>
+                            <li>瓦數</li>
+                            <li>注意事項</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="footer bg-dark text-white" id="contact">
+        <div class="container-fluid">
+            <p class="font-32px">Contact Us</p>
+            <div class="">
+                <span class="pe-2 d-inline-block">電子郵件：orandaconsultingllc@gmail.com</span>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-submenu@3.0.1/dist/js/bootstrap-submenu.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="package/bootstrap.min.js"></script>
+    <script>
+        var narbar = document.getElementById('myTab')
+        $("#myTab .nav-item a.changeHomeTab").on("click", function (e) {
+          document.location.href = 'index.html?' + $(this).attr("href");
+        });
+        AOS.init();
+
+      </script>
+</body>
+
+</html>
