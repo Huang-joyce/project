@@ -6,15 +6,15 @@
         },
         "nav": [
             {
-                "text": "home",
+                "text": "Home",
                 "href": "./index.html?language=english"
             },
             {
-                "text": "about",
+                "text": "About",
                 "href": "./aboutUs.html?language=english"
             },
             {
-                "text": "product",
+                "text": "Product",
                 "href": "#",
                 "list": [
                     {
@@ -22,11 +22,11 @@
                         "href": "./product.html?language=english"
                     },
                     {
-                        "text": "Basic Power Distribution Unit",
+                        "text": "Basic PDU",
                         "href": "./product.html?language=english#product2"
                     },
                     {
-                        "text": "Digital Power Distribution Unit",
+                        "text": "Digital PDU",
                         "href": "./product.html?language=english#product3"
                     },
                     {
@@ -34,17 +34,17 @@
                         "href": "./product.html?language=english#product4"
                     },
                     {
-                        "text": "Personal",
+                        "text": "Customized",
                         "href": "./product.html?language=english#product5"
                     }
                 ]
             },
             {
-                "text": "contact",
+                "text": "Contact",
                 "href": "./contact.html?language=english"
             },
             {
-                "text": "language",
+                "text": "Language",
                 "href": "#",
                 "list": [
                     {
@@ -61,31 +61,31 @@
     },
     "home": {
         "slogan": {
-            "title": "Business philosophy",
+            "title": "Business Belief",
             "text": "Empowering Your Potential. Every Connection Counts."
         },
         "introduction":{
-            "title":"introduction",
+            "title":"Introduction",
             "content": [
                 {
                     "imgUrl": "./images/introduction_1.jpg",
                     "imgAlt":"電源分配器圖示",
-                    "text": "PDU (Power Distribution Unit, 電源分配器) 俗稱 插座，是專門給伺服器等網絡設備供電的工業插座，並且電壓承載高，功率也大。最主要的是工業插座分成鐵殼和鋁合金材質，內部完全絕緣，不會出現火災。"
+                    "text": "PDU (Power Distribution Unit), commonly known as a power strip, is an industrial-grade power outlet specifically designed to supply power to servers and other network equipment. It features high voltage capacity and substantial power output. The primary construction materials for industrial-grade power strips are metal or aluminum alloy casings, which are fully insulated internally to eliminate the risk of fire hazards."
                 },
                 {
                     "imgUrl": "./images/introduction_2.jpg",
                     "imgAlt":"安全性圖示",
-                    "text": "PDU產品的安全可靠性要遠高於普通的電源插座。為了提升用電設備的安全性，PDU不僅要能夠承受IT機房設計負載的總功率，還要具有優異的過載保護機制，防止因為過載而可能發生的電路過熱而可能引發的失火事故。"
+                    "text": "The safety and reliability of PDU products far exceed those of standard power outlets. To enhance the safety of powered devices, a PDU must not only handle the total designed load capacity of an IT server room but also provide superior overload protection mechanisms to prevent overheating and potential fire hazards caused by circuit overload."
                 },
                 {
                     "imgUrl": "./images/introduction_3.jpg",
                     "imgAlt":"三個齒輪圖示",
-                    "text": "通過具有過載斷電保護和多重電路保護功能的PDU，可防止過載、高溫、失火等危害,最大限度的提升產品的安全係數。此外，PDU可幫助使用者節省人力，有效降低管理和維護成本，性價比高。"
+                    "text": "With built-in overload protection and multi-layer circuit protection features, PDUs can effectively safeguard against overload, high temperatures, and fire risks, significantly improving overall safety. Additionally, PDUs help users save on labor costs, effectively reduce management and maintenance expenses, and deliver excellent cost performance."
                 }
             ]
         },
         "certification": {
-            "title":"certification",
+            "title":"Certification",
             "content": [
                 {
                     "imgUrl": "./images/certification_1.jpg",
@@ -99,7 +99,7 @@
         }
     },
     "about": {
-        "title": "關於我們",
+        "title": "About Us",
         "content": [
             {
                 "imgUrl": "./images/about_1.jpg",
@@ -134,18 +134,18 @@
         ]
     },
     "contact": {
-        "title": "Contact us",
+        "title": "Contact Us",
         "text": "We respond within 24 hours!",
         "form": {
             "method":"POST",
             "action":"",
-            "buttonText":"submit",
+            "buttonText":"Submit",
             "content":[
                 {
                     "class":"col-md-6",
                     "control": "input",
                     "type": "text",
-                    "text": "name"
+                    "text": "Name"
                 },
                 {
                     "class":"col-md-6",
@@ -163,7 +163,7 @@
                     "class":"col-md-12",
                     "control": "textarea",
                     "type": "textarea",
-                    "text": "Command"
+                    "text": "Comment"
                 }
             ]
         }
@@ -182,9 +182,9 @@
                 "text": "Basic Power Distribution Unit",
                 "subList":[
                     {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
+                        "imgUrl":"./images/Products/PowerstripSwitch2.jpg",
                         "imgAlt":"電源組",
-                        "title":"8-Outlet Metal Heavy Duty PDU with Display",
+                        "title":"6-Outlet Metal Power Strip",
                         "text":"Some quick example text to build on the card title and make up the bulk of the card's content.",
                         "buttonText":"Product details",
                         "specifications":"specifications:",
@@ -218,10 +218,10 @@
                     {
                         "imgUrl":"./images/Products/PowerstripDigital.jpg",
                         "imgAlt":"電源組",
-                        "title":"數位8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                        "title":"8-Outlet Metal Heavy Duty PDU with Display",
+                        "text":"Rack-Mountable Made with a metal enclosure for fire resistance and prevention Automatically shuts off during power overload; manual reset required",
                         "buttonText":"Product details",
-                        "specifications":"specifications:",
+                        "specifications":"Specifications:",
                         "table":[
                             {
                                 "value":[
@@ -250,16 +250,15 @@
                 "text": "Plug Adapter/Extension Cord",
                 "subList":[
                     {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
+                        "imgUrl":"./images/Products/C13_6FT.jpg",
                         "imgAlt":"電源組",
-                        "title":"NEMA8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                        "title":"C13-C14",
+                        "text":"Specifications：6 Ft/14AWG, UL/SJT Maximum 15A, 125V",
                         "buttonText":"Product details",
                         "specifications":"specifications:",
                         "table":[
                             {
                                 "value":[
-                                    "OUTLETS",
                                     "LENGTH",
                                     "GAUGE",
                                     "VOLTAGE",
@@ -268,11 +267,18 @@
                             },
                             {
                                 "value":[
-                                    "8",
-                                    "10 FT",
-                                    "12AWG",
+                                    "1 FT",
+                                    "14 AWG",
                                     "125V",
-                                    "20A"
+                                    "15A"
+                                ]
+                            },
+                            {
+                                "value":[
+                                    "6 FT",
+                                    "14 AWG",
+                                    "125V",
+                                    "15A"
                                 ]
                             }
                         ]
