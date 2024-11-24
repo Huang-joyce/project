@@ -11,6 +11,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Oranda Trading</title>
 </head>
+
 <body>
     <div>
         <nav class="navbar navbar-light navbar-expand-lg header py-3">
@@ -49,54 +50,15 @@
             </div>
         </nav>
     </div>
-    <div class="positoin-relative product-environment mt-5">
-        <div class="container-lg">
-          <div class="text-center mb-5">
-            <p class="fw-bold pt-3 mb-0 font-18px" >產品詳情</p>
-            <p class="fw-bold font-32px fcolor-green">PRODUCT</p>
-          </div>
-          <div class="mb-5" data-aos="zoom-in" data-aos-duration="1500">
-            <div class="d-flex flex-wrap" >
-                <div class="col-12 col-md-5">
-                    <span class="d-inline-block"><img class="img" src="images/Products/PowerstripDigital.jpg" alt=""></span>
-                </div>
-                <div class="col-12 col-md-7">
-                    <div>
-                        <p class="fw-bold font-24px">8-Outlet Metal Heavy Duty PDU with Display</p>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <ul>
-                            <li>規格</li>
-                            <li>瓦數</li>
-                            <li>注意事項</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    <div class="footer bg-dark text-white" id="contact">
-        <div class="container-fluid">
-            <p class="font-32px">Contact Us</p>
-            <div class="">
-                <span class="pe-2 d-inline-block">電子郵件：orandaconsultingllc@gmail.com</span>
-                <hr>
-            </div>
-        </div>
+    <div class="js-productDetail"></div>
+    <div class=" js-footer">
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/bootstrap-submenu@3.0.1/dist/js/bootstrap-submenu.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="package/bootstrap.min.js"></script>
-    <script>
-        var narbar = document.getElementById('myTab')
-        $("#myTab .nav-item a.changeHomeTab").on("click", function (e) {
-          document.location.href = 'index.html?' + $(this).attr("href");
-        });
-        AOS.init();
-
-      </script>
+    <script src="js/showdata.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>

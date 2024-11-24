@@ -13,64 +13,14 @@
 </head>
 
 <body>
-  <div>
-    <nav class="navbar navbar-light navbar-expand-lg header py-3">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Oranda Trading</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav nav-tabs nav ms-auto mb-2 mb-lg-0 border-0" id="myTab" role="tablist">
-            <li class="nav-item border-0">
-              <a class="nav-link  border-0 " href="index.html">首頁</a>
-            </li>
-            <li class="nav-item border-0">
-              <a class="nav-link  border-0 " href="aboutUs.html">關於我們</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle border-0" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">產品內容</a>
-              <!-- <a class="nav-link border-0 " href="product.html">產品內容</a> -->
-              <ul class="dropdown-menu border-0">
-                <li><a class="dropdown-item" href="product.html?">全部產品</a></li>
-                <li><a class="dropdown-item" href="product.html?#product2">基本型電源組</a></li>
-                <li><a class="dropdown-item" href="product.html?#product3">數位型電源組</a></li>
-                <li><a class="dropdown-item" href="product.html?#product4">NEMA轉接線/轉接頭</a></li>
-                <li><a class="dropdown-item" href="product.html?#product5">客製化</a></li>
-              </ul>
-              <!-- <div class="SecMenu">
-                <div class="d-flex text-center">
-                  <div class="col-3">
-                     <a class="fcolor-green text-decoration-none" href="product.html?#product2">基本型電源組</a>
-                  </div>
-                  <div class="col-3">
-                    <a class="fcolor-green text-decoration-none" href="product.html?#product3">數位型電源組</a>
-                  </div>
-                  <div class="col-3">
-                    <a class="fcolor-green text-decoration-none" href="product.html?#product4">NEMA轉接線/轉接頭</a>
-                  </div>
-                  <div class="col-3">
-                    <a class="fcolor-green text-decoration-none" href="product.html?#product5">客製化</a>
-                  </div>
-                </div>
-
-              </div> -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link border-0 " href="contact.html">聯繫我們</a>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </nav>
+  <div class="js-header">
   </div>
   <div class="container-fluid p-0">
     <div class="productBanner positoin-relative">
     </div>
   </div>
-  <div class="positoin-relative product-environment">
+  <div class="js-product"></div>
+  <!-- <div class="positoin-relative product-environment">
     <div class="container-fluid">
       <div class="text-center">
         <p class="fw-bold pt-3 mb-0 font-18px">產品內容</p>
@@ -110,7 +60,8 @@
                     <div class="card-body">
                       <h5 class="card-title fw-bold">8-Outlet Metal Heavy Duty PDU with Display</h5>
                       <p class="card-text"></p>
-                      <a href="#" class="card-link text-decoration-none text-secondary">商品詳情</a>
+                      <a href="productDetail.html?productId=1111"
+                        class="card-link text-decoration-none text-secondary">商品詳情</a>
                     </div>
                   </a>
                 </div>
@@ -300,57 +251,16 @@
         </div>
       </div>
     </div>
+  </div> -->
+  <div class=" js-footer">
   </div>
-  <div class="footer bg-dark text-white" id="contact">
-    <div class="container-fluid">
-      <p class="font-32px">Contact Us</p>
-      <div class="">
-        <span class="pe-2 d-inline-block">電子郵件：orandaconsultingllc@gmail.com</span>
-        <hr>
-      </div>
-    </div>
-  </div>
-
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/bootstrap-submenu@3.0.1/dist/js/bootstrap-submenu.js" defer></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="package/bootstrap.min.js"></script>
-  <script>
-    var narbar = document.getElementById('myTab')
-    $("#myTab .nav-item a.changeHomeTab").on("click", function (e) {
-      document.location.href = 'index.html?' + $(this).attr("href");
-    });
-    $('button[data-bs-toggle="tab"]').on("hidden.bs.tab", function (event) {
-      var target = event.target.dataset.bsTarget;
-      var relatedTarget = event.relatedTarget.dataset.bsTarget;
-      $('#InformationContent .tab-pane .row').removeClass('aos-animate');
-      $(relatedTarget + " .row").addClass('aos-animate')
-    });
-    AOS.init();
-      $(function() {
-          $('#InformationContent .tab-pane .row').removeClass('aos-animate');
-          $('#InformationContent .tab-pane.active .row').addClass('aos-animate');
-          if(window.location.hash !=''){
-            switch (window.location.hash) {
-              case '#product2':
-              $('button[data-bs-target="#product2"]').click();
-                break;
-                case '#product3':
-              $('button[data-bs-target="#product3"]').click();
-                break;
-                case '#product4':
-              $('button[data-bs-target="#product4"]').click();
-                break;
-                case '#product5':
-              $('button[data-bs-target="#product5"]').click();
-                break;
-              default:
-                break;
-            }
-          }
-      });
-  </script>
+  <script src="js/showdata.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

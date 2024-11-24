@@ -1,3 +1,6 @@
+body{
+    font-size: 18px;
+}
 .font-18px{
     font-size: 18px;
 }
@@ -64,11 +67,8 @@
     display: block;
 }
 .dropdown-menu[data-bs-popper]{
-    right: 30px;
+    /* right: 30px; */
     left: auto;
-}
-.closeBtn{
-    display: none;
 }
 .SecMenu{
     display: none;
@@ -90,26 +90,26 @@
 .card_content_img{
     max-width: 300px;
 }
-.home-about{
+.home-introduction{
     padding: 100px 0;
     overflow: hidden;
 }
-.home-benifit{
+.home-certification{
     padding: 70px 0;
     overflow: hidden;
 }
-.home-benifit .card{
+.home-certification .card{
     min-height: 320px;
     position: relative;
     overflow: hidden;
 }
-.home-benifit .card_content_img-black{
+.home-certification .card_content_img-black{
     display: none;
 }
-.home-benifit .card_content{
+.home-certification .card_content{
     z-index: 2;
 }
-.home-benifit .card .card_circle{
+.home-certification .card .card_circle{
     position: absolute;
     top: -50px;
     right: -50px;
@@ -121,11 +121,11 @@
     animation: animateBackground2 0.4s ease-in-out forwards;
     
 }
-.home-benifit .card .card_circle:hover{
+.home-certification .card .card_circle:hover{
     animation: animateBackground 0.4s ease-in-out forwards ;
     color: white;
 }
-.home-benifit .card .card_circle:hover{
+.home-certification .card .card_circle:hover{
     color: white;
 }
 @keyframes animateBackground{
@@ -173,6 +173,12 @@
 .product-environment{
     padding: 50px 0;
     overflow: hidden;  
+}
+.card-title{
+    line-height: 1.5;
+}
+.card-img-top{
+    max-height: 285px;
 }
 #InformationContent .card{
     box-shadow: 3px 3px 10px 3px #00000017;
@@ -292,16 +298,15 @@
         display: none;
     }
     #navbarSupportedContent{
-        width: 200px;
+        width: 40%;
         position: absolute;
         right: 0px;
         top: 0px;
         background: #000000cf;
         padding: 10px;
         color: white;
-        
-        animation-delay:600ms;
-        animation: slidedown 0.8s linear ;
+        /* animation-delay:300ms; */
+        animation: slideleft 1.5s linear ;
         z-index: 20;
     }
     #navbarSupportedContent ul{
@@ -312,10 +317,11 @@
         color: white;
     }
     #navbarSupportedContent.remove{
-        animation: slideright 1.0s linear ;
+        animation: slideright 1.8s linear ;
     }
-    .show .closeBtn{
-        display: block;
+    .dropdown-menu.show{
+        background-color: black;
+        display: inline;
     }
 }
 @keyframes slideright{
@@ -323,12 +329,12 @@
         right: 0%;
     }
     100%{
-        right: -40%;
+        right: -80%;
     }
 }
-@keyframes slidedown{
+@keyframes slideleft{
     0%{
-        right: -30%;
+        right: -60%;
     }
     100%{
         right: 0%;
@@ -345,7 +351,17 @@
         font-size: 28px;
     }
 }
-#floatingComments{
+@media screen and (max-width:576px) {
+    #navbarSupportedContent{
+        width: 60%;
+        max-width: 260px;
+        animation: slideleft 1.4s linear ;
+    }
+    #navbarSupportedContent.remove{
+        animation: slideright 1.4s linear ;
+    }
+}
+.form-floating>textarea.form-control{
     height: 200px;
     width: 100%;
 }

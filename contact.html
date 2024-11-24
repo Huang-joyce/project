@@ -13,103 +13,10 @@
 </head>
 
 <body>
-  <div>
-    <nav class="navbar navbar-light navbar-expand-lg header py-3">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Oranda Trading</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav nav-tabs nav ms-auto mb-2 mb-lg-0 border-0" id="myTab" role="tablist">
-            <li class="nav-item border-0">
-              <a class="nav-link  border-0 " href="index.html">首頁</a>
-            </li>
-            <li class="nav-item border-0">
-              <a class="nav-link  border-0 active" href="aboutUs.html">關於我們</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle border-0" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">產品內容</a>
-              <!-- <a class="nav-link border-0 " href="product.html">產品內容</a> -->
-              <ul class="dropdown-menu border-0">
-                <li><a class="dropdown-item" href="product.html?">全部產品</a></li>
-                <li><a class="dropdown-item" href="product.html?#product2">基本型電源組</a></li>
-                <li><a class="dropdown-item" href="product.html?#product3">數位型電源組</a></li>
-                <li><a class="dropdown-item" href="product.html?#product4">NEMA轉接線/轉接頭</a></li>
-                <li><a class="dropdown-item" href="product.html?#product5">客製化</a></li>
-              </ul>
-              <!-- <div class="SecMenu">
-                <div class="d-flex text-center">
-                  <div class="col-3">
-                     <a class="fcolor-green text-decoration-none" href="product.html?#product2">基本型電源組</a>
-                  </div>
-                  <div class="col-3">
-                    <a class="fcolor-green text-decoration-none" href="product.html?#product3">數位型電源組</a>
-                  </div>
-                  <div class="col-3">
-                    <a class="fcolor-green text-decoration-none" href="product.html?#product4">NEMA轉接線/轉接頭</a>
-                  </div>
-                  <div class="col-3">
-                    <a class="fcolor-green text-decoration-none" href="product.html?#product5">客製化</a>
-                  </div>
-                </div>
-
-              </div> -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link border-0 " href="contact.html">聯繫我們</a>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </nav>
+  <div class="js-header">
   </div>
-  <div class="positoin-relative product-environment my-5">
-    <div class="container-lg my-5">
-      <div class="text-center mb-5">
-       <!--<p class="fw-bold font-32px">聯繫我們</p>--> 
-        <p class="fw-bold font-32px">CONTACT US</p>
-        <p class="text-center mb-3">We respond within 24 hours!</p>
-      </div>
-      <div>
-        <form class="row g-3" action="">
-          <div class="col-md-6 mb-2">
-            <div class="form-floating">
-              <input type="Name" class="form-control" id="floatingName" placeholder="Name">
-              <label for="floatingName">Name</label>
-            </div>
-          </div>
-          <div class="col-md-6 mb-2">
-            <div class="form-floating">
-              <input type="Email" class="form-control" id="floatingEmail" placeholder="PEmail">
-              <label for="floatingEmail">Email</label>
-            </div>
-          </div>
-          <div class="form-floating mb-2">
-            <input type="Phone Number" class="form-control" id="floatingPhone Number" placeholder="Phone Number">
-            <label for="floatingPhone Number">Phone Number</label>
-          </div>
-          <div class="form-floating mb-2">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingComments"></textarea>
-            <label for="floatingComments">Comments</label>
-          </div>
-          <div class="col-12 mb-2">
-            <button type="submit" class="btn btn-primary">Send</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-  <div class="footer bg-dark text-white" id="contact">
-    <div class="container-fluid">
-      <p class="font-32px">Contact Us</p>
-      <div class="">
-        <span class="pe-2 d-inline-block">電子郵件：orandaconsultingllc@gmail.com</span>
-        <hr>
-      </div>
-    </div>
+  <div class="js-contact"></div>
+  <div class=" js-footer">
   </div>
 
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
@@ -117,26 +24,8 @@
   <script src="https://unpkg.com/bootstrap-submenu@3.0.1/dist/js/bootstrap-submenu.js" defer></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="package/bootstrap.min.js"></script>
-  <script>
-    var narbar = document.getElementById('myTab')
-    $("#myTab .nav-item a.changeHomeTab").on("click", function (e) {
-      document.location.href = 'index.html?' + $(this).attr("href");
-    });
-    $('#InformationTab button').on("click", function (e) {
-      $('#InformationContent .active .row').removeClass('aos-animate')
-      setTimeout(function () {
-        $('#InformationContent .row').addClass('aos-animate')
-      }, 1000)
-    });
-    AOS.init();
-    //  let dropdowns = document.querySelectorAll('.dropdown-toggle')
-    //   dropdowns.forEach((dd)=>{
-    //       dd.addEventListener('click', function (e) {
-    //           var el = this.nextElementSibling
-    //           el.style.display = el.style.display==='block'?'none':'block'
-    //       })
-    //   })
-  </script>
+  <script src="js/showdata.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

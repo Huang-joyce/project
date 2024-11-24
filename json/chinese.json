@@ -1,0 +1,351 @@
+{
+    "header": {
+        "logo": {
+            "href": "index.html",
+            "text": "Oranda Trading"
+        },
+        "nav": [
+            {
+                "text": "首頁",
+                "href": "./index.html"
+            },
+            {
+                "text": "關於我們",
+                "href": "./aboutUs.html"
+            },
+            {
+                "text": "產品內容",
+                "href": "#",
+                "list": [
+                    {
+                        "text": "全部產品",
+                        "href": "./product.html?"
+                    },
+                    {
+                        "text": "基本型電源組",
+                        "href": "./product.html?#product2"
+                    },
+                    {
+                        "text": "數位型電源組",
+                        "href": "./product.html?#product3"
+                    },
+                    {
+                        "text": "NEMA轉接縣/轉接頭",
+                        "href": "./product.html?#product4"
+                    },
+                    {
+                        "text": "客製化",
+                        "href": "./product.html?#product5"
+                    }
+                ]
+            },
+            {
+                "text": "聯繫我們",
+                "href": "./contact.html"
+            },
+            {
+                "text": "語言",
+                "href": "#",
+                "list": [
+                    {
+                        "text": "中文",
+                        "href": "./index.html?"
+                    },
+                    {
+                        "text": "英文",
+                        "href": "./index.html?language=english"
+                    }
+                ]
+            }
+        ]
+    },
+    "home": {
+        "slogan": {
+            "title": "經營理念",
+            "text": "Empowering Your Potential. Every Connection Counts."
+        },
+        "introduction":{
+            "title":"簡介",
+            "content": [
+                {
+                    "imgUrl": "./images/introduction_1.jpg",
+                    "imgAlt":"電源分配器圖示",
+                    "text": "PDU (Power Distribution Unit, 電源分配器) 俗稱 插座，是專門給伺服器等網絡設備供電的工業插座，並且電壓承載高，功率也大。最主要的是工業插座分成鐵殼和鋁合金材質，內部完全絕緣，不會出現火災。"
+                },
+                {
+                    "imgUrl": "./images/introduction_2.jpg",
+                    "imgAlt":"安全性圖示",
+                    "text": "PDU產品的安全可靠性要遠高於普通的電源插座。為了提升用電設備的安全性，PDU不僅要能夠承受IT機房設計負載的總功率，還要具有優異的過載保護機制，防止因為過載而可能發生的電路過熱而可能引發的失火事故。"
+                },
+                {
+                    "imgUrl": "./images/introduction_3.jpg",
+                    "imgAlt":"三個齒輪圖示",
+                    "text": "通過具有過載斷電保護和多重電路保護功能的PDU，可防止過載、高溫、失火等危害,最大限度的提升產品的安全係數。此外，PDU可幫助使用者節省人力，有效降低管理和維護成本，性價比高。"
+                }
+            ]
+        },
+        "certification": {
+            "title":"認證",
+            "content": [
+                {
+                    "imgUrl": "./images/certification_1.jpg",
+                    "text": "台灣廠商部品零件經過UL認證，在穩定性、耐用性和安全性方面，可以提升客戶對品質的信心。"
+                },
+                {
+                    "imgUrl": "./images/certification_2.jpg",
+                    "text": "我們的供應商已通過台灣ISO認證，確保每項產品符合國際品質標準，讓客戶可以安心選購。"
+                }
+            ]
+        }
+    },
+    "about": {
+        "title": "關於我們",
+        "content": [
+            {
+                "imgUrl": "./images/about_1.jpg",
+                "imgAlt": "company",
+                "title": "",
+                "text": "OrandaCo_Electronics is a company established in 2024 with the purpose of importing advanced PDUs from Taiwan to the United States. We provide professional power distribution solutions to support the efficient operation of IT infrastructure, data centers, and industrial facilities."
+            },
+            {
+                "imgUrl": "./images/about_2.jpg",
+                "imgAlt": "INTERNATIONAL",
+                "title": "INTERNATIONAL CERTIFICATION AND MARKET REPUTATION",
+                "text": "Our supplier’s products are certified by ISO and UL, giving customers confidence in purchasing products with high stability, advanced technical capabilities, excellent quality control, and compliance with international standards."
+            },
+            {
+                "imgUrl": "./images/about_3.jpg",
+                "imgAlt": "COMPETITIVE PRICING",
+                "title": "COMPETITIVE PRICING",
+                "text": "As a company that directly imports products from factories in Taiwan, we are able to provide high-quality products at more competitive prices."
+            },
+            {
+                "imgUrl": "./images/about_4.jpg",
+                "imgAlt": "PROFESSIONAL SERVICE",
+                "title": "PROFESSIONAL SERVICE",
+                "text": "We offer fast and efficient technical support and after-sales services, including customized product solutions."
+            },
+            {
+                "imgUrl": "./images/about_5.jpg",
+                "imgAlt": "INNOVATION",
+                "title": "INNOVATION AND FUTURE DEVELOPMENT POTENTIAL",
+                "text": "The company is committed to continuous innovation in collaboration with our suppliers and expanding the product line. As the demand for data centers and IT infrastructure grows, the market potential for our products is vast, especially with the global trends of digitalization and cloud technology development."
+            }
+        ]
+    },
+    "contact": {
+        "title": "聯繫我們",
+        "text": "We respond within 24 hours!",
+        "form": {
+            "method":"POST",
+            "action":"",
+            "buttonText":"提交",
+            "content":[
+                {
+                    "class":"col-md-6",
+                    "control": "input",
+                    "type": "text",
+                    "text": "姓名"
+                },
+                {
+                    "class":"col-md-6",
+                    "control": "input",
+                    "type": "email",
+                    "text": "電子信箱"
+                },
+                {
+                    "class":"col-md-12",
+                    "control": "input",
+                    "type": "phone",
+                    "text": "手機號碼"
+                },
+                {
+                    "class":"col-md-12",
+                    "control": "textarea",
+                    "type": "textarea",
+                    "text": "說明"
+                }
+            ]
+        }
+    },
+    "product": {
+        "title": "產品內容",
+        "detailTitle":"產品詳情",
+        "list": [
+            {
+                "id": "1",
+                "text": "全部"
+
+            },
+            {
+                "id": "2",
+                "text": "基本型電源組",
+                "subList":[
+                    {
+                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
+                        "imgAlt":"電源組",
+                        "title":"8-Outlet Metal Heavy Duty PDU with Display",
+                        "text":"Some quick example",
+                        "buttonText":"商品詳情",
+                        "specifications":"規格:",
+                        "table":[
+                            {
+                                "value":[
+                                    "插座數",
+                                    "長度",
+                                    "線規",
+                                    "伏特",
+                                    "安倍"
+                                ]
+                            },
+                            {
+                                "value":[
+                                    "8",
+                                    "10 FT",
+                                    "12AWG",
+                                    "125V",
+                                    "20A"
+                                ]
+                            }
+                        ]
+                    },  {
+                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
+                        "imgAlt":"電源組",
+                        "title":"8-Outlet Metal Heavy Duty PDU with Display",
+                        "text":"Some quick example",
+                        "buttonText":"商品詳情",
+                        "specifications":"規格:",
+                        "table":[
+                            {
+                                "value":[
+                                    "插座數",
+                                    "長度",
+                                    "線規",
+                                    "伏特",
+                                    "安倍"
+                                ]
+                            },
+                            {
+                                "value":[
+                                    "8",
+                                    "10 FT",
+                                    "12AWG",
+                                    "125V",
+                                    "20A"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "text": "數位型電源組",
+                "subList":[
+                    {
+                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
+                        "imgAlt":"電源組",
+                        "title":"數位8-Outlet Metal Heavy Duty PDU with Display",
+                        "text":"數位Some quick example",
+                        "buttonText":"商品詳情",
+                        "specifications":"規格:",
+                        "table":[
+                            {
+                                "value":[
+                                    "插座數",
+                                    "長度",
+                                    "線規",
+                                    "伏特",
+                                    "安倍"
+                                ]
+                            },
+                            {
+                                "value":[
+                                    "8",
+                                    "10 FT",
+                                    "12AWG",
+                                    "125V",
+                                    "20A"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "text": "NEMA轉接線/轉接頭",
+                "subList":[
+                    {
+                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
+                        "imgAlt":"電源組",
+                        "title":"NEMA8-Outlet Metal Heavy Duty PDU with Display",
+                        "text":"NEMASome quick example",
+                        "buttonText":"商品詳情",
+                        "specifications":"規格:",
+                        "table":[
+                            {
+                                "value":[
+                                    "插座數",
+                                    "長度",
+                                    "線規",
+                                    "伏特",
+                                    "安倍"
+                                ]
+                            },
+                            {
+                                "value":[
+                                    "8",
+                                    "10 FT",
+                                    "12AWG",
+                                    "125V",
+                                    "20A"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "text": "客製化",
+                "subList":[
+                    {
+                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
+                        "imgAlt":"電源組",
+                        "title":"客製化8-Outlet Metal Heavy Duty PDU with Display",
+                        "text":"客製化Some quick example",
+                        "buttonText":"商品詳情",
+                        "specifications":"規格:",
+                        "table":[
+                            {
+                                "value":[
+                                    "插座數",
+                                    "長度",
+                                    "線規",
+                                    "伏特",
+                                    "安倍"
+                                ]
+                            },
+                            {
+                                "value":[
+                                    "8",
+                                    "10 FT",
+                                    "12AWG",
+                                    "125V",
+                                    "20A"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "title": "聯繫我們",
+        "content": [
+            "電子郵件：orandaconsultingllc@gmail.com"
+        ]
+    }
+}
