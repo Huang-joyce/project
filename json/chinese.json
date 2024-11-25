@@ -105,31 +105,31 @@
                 "imgUrl": "./images/about_1.jpg",
                 "imgAlt": "company",
                 "title": "",
-                "text": "OrandaCo_Electronics is a company established in 2024 with the purpose of importing advanced PDUs from Taiwan to the United States. We provide professional power distribution solutions to support the efficient operation of IT infrastructure, data centers, and industrial facilities."
+                "text": "Oranda Trading成立於2024年，專注於將先進的電源分配器 (PDU) 從台灣引進美國。我們提供專業的電源分配解決方案，以支持IT基礎設施、數據中心和工業設施的高效運行。"
             },
             {
                 "imgUrl": "./images/about_2.jpg",
                 "imgAlt": "INTERNATIONAL",
-                "title": "INTERNATIONAL CERTIFICATION AND MARKET REPUTATION",
-                "text": "Our supplier’s products are certified by ISO and UL, giving customers confidence in purchasing products with high stability, advanced technical capabilities, excellent quality control, and compliance with international standards."
+                "title": "國際認證與市場信譽",
+                "text": "我們的供應商產品通過ISO以及UL認證，讓客戶能放心選購具有高穩定性、高技術實力、良好品質控管以及符合國際標準的產品。"
             },
             {
                 "imgUrl": "./images/about_3.jpg",
                 "imgAlt": "COMPETITIVE PRICING",
-                "title": "COMPETITIVE PRICING",
-                "text": "As a company that directly imports products from factories in Taiwan, we are able to provide high-quality products at more competitive prices."
+                "title": "直接進口降低成本",
+                "text": "作為從台灣工廠直接進口產品的公司，能夠以更具競爭力的價格提供高品質產品。"
             },
             {
                 "imgUrl": "./images/about_4.jpg",
                 "imgAlt": "PROFESSIONAL SERVICE",
-                "title": "PROFESSIONAL SERVICE",
-                "text": "We offer fast and efficient technical support and after-sales services, including customized product solutions."
+                "title": "專業化服務",
+                "text": "我們提供快速、高效的技術支持和售後服務。例如客製化產品服務。"
             },
             {
                 "imgUrl": "./images/about_5.jpg",
                 "imgAlt": "INNOVATION",
-                "title": "INNOVATION AND FUTURE DEVELOPMENT POTENTIAL",
-                "text": "The company is committed to continuous innovation in collaboration with our suppliers and expanding the product line. As the demand for data centers and IT infrastructure grows, the market potential for our products is vast, especially with the global trends of digitalization and cloud technology development."
+                "title": "創新與未來發展潛力",
+                "text": "公司致力於與供應商合作持續創新，並拓展產品線。隨著數據中心和IT基礎設施需求的增加，我們產品的市場前景廣闊，特別是在全球數位化和雲端技術發展的趨勢下。"
             }
         ]
     },
@@ -181,12 +181,15 @@
                 "text": "基本型電源組",
                 "subList": [
                     {
-                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgUrl": "./images/Products/PowerstripSwitch2.jpg",
                         "imgAlt": "電源組",
-                        "title": "8-Outlet Metal Heavy Duty PDU with Display",
+                        "title": "6-Outlet Metal Power Strip",
                         "text": [
-                            "Some quick example",
-                            "assdasd"
+                            "可安裝於機櫃",
+                            "鐵殼製作耐燃防止燃燒",
+                            "用電過載時自動斷電,需手動復規",
+                            "UL認證",
+                            "台灣製造"
                         ],
                         "buttonText": "商品詳情",
                         "specifications": "規格:",
@@ -204,46 +207,14 @@
                                 "value": [
                                     "8",
                                     "10 FT",
-                                    "12AWG",
+                                    "12 AWG",
                                     "125V",
                                     "20A"
                                 ]
                             }
                         ],
                         "buyText":"購買連結",
-                        "href": ""
-                    },
-                    {
-                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
-                        "imgAlt": "電源組",
-                        "title": "8-Outlet Metal Heavy Duty PDU with Display",
-                        "text": [
-                            "Some quick example"
-                        ],
-                        "buttonText": "商品詳情",
-                        "specifications": "規格:",
-                        "table": [
-                            {
-                                "value": [
-                                    "插座數",
-                                    "長度",
-                                    "線規",
-                                    "伏特",
-                                    "安倍"
-                                ]
-                            },
-                            {
-                                "value": [
-                                    "8",
-                                    "10 FT",
-                                    "12AWG",
-                                    "125V",
-                                    "20A"
-                                ]
-                            }
-                        ],
-                        "buyText":"購買連結",
-                        "href": ""
+                        "href": "https://www.ebay.com/itm/365204131763"
                     }
                 ]
             },
@@ -256,7 +227,12 @@
                         "imgAlt": "電源組",
                         "title": "數位8-Outlet Metal Heavy Duty PDU with Display",
                         "text": [
-                            "Some quick example"
+                            "可安裝於機櫃",
+                            "鐵殼製作耐燃防止燃燒",
+                            "用電過載時自動斷電,需手動復規",
+                            "可即時顯示安培和福特，方便監控電源狀態",
+                            "UL認證",
+                            "台灣製造"
                         ],
                         "buttonText": "商品詳情",
                         "specifications": "規格:",
@@ -281,7 +257,7 @@
                             }
                         ],
                         "buyText":"購買連結",
-                        "href": ""
+                        "href": "https://www.ebay.com/itm/365100883916"
                     }
                 ]
             },
@@ -290,11 +266,13 @@
                 "text": "NEMA轉接線/轉接頭",
                 "subList": [
                     {
-                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgUrl": "./images/Products/C13_6FT.jpg",
                         "imgAlt": "電源組",
-                        "title": "NEMA8-Outlet Metal Heavy Duty PDU with Display",
+                        "title": "C13-C14",
                         "text": [
-                            "Some quick example"
+                            "最大15A, 125V",
+                            "UL認證",
+                            "台灣製造"
                         ],
                         "buttonText": "商品詳情",
                         "specifications": "規格:",
@@ -319,7 +297,79 @@
                             }
                         ],
                         "buyText":"購買連結",
-                         "href": ""
+                         "href": "https://www.ebay.com/itm/365099482675"
+                    },
+                    {
+                        "imgUrl": "./images/Products/515_6FT.jpg",
+                        "imgAlt": "電源組",
+                        "title": "515P-515R",
+                        "text": [
+                            "最大15A, 125V",
+                            "UL認證",
+                            "台灣製造"
+                        ],
+                        "buttonText": "商品詳情",
+                        "specifications": "規格:",
+                        "table": [
+                            {
+                                "value": [
+                                    "長度",
+                                    "線規",
+                                    "伏特",
+                                    "安倍"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "1 FT",
+                                    "14 AWG",
+                                    "125V",
+                                    "15A"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "6 FT",
+                                    "14 AWG",
+                                    "125V",
+                                    "15A"
+                                ]
+                            }
+                        ],
+                        "buyText":"購買連結",
+                        "href": "https://www.ebay.com/itm/365099482410"
+                    },
+                    {
+                        "imgUrl": "./images/Products/PDU_Plug_2.jpg",
+                        "imgAlt": "電源組",
+                        "title": "NEMA L6-30P",
+                        "text": [
+                            "最大30A, 250V",
+                            "UL認證",
+                            "台灣製造"
+                        ],
+                        "buttonText": "商品詳情",
+                        "specifications": "規格:",
+                        "table": [
+                            {
+                                "value": [
+                                    "Pole",
+                                    "Wire",
+                                    "線規",
+                                    "HZ"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "2",
+                                    "3",
+                                    "10 AWG",
+                                    "60 HZ"
+                                ]
+                            }
+                        ],
+                        "buyText":"購買連結",
+                         "href": "https://www.ebay.com/itm/365173740646"
                     }
                 ]
             },
@@ -327,39 +377,7 @@
                 "id": "5",
                 "text": "客製化",
                 "subList": [
-                    {
-                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
-                        "imgAlt": "電源組",
-                        "title": "客製化8-Outlet Metal Heavy Duty PDU with Display",
-                        "text": [
-                            "Some quick example",
-                            "Some quick example"
-                        ],
-                        "buttonText": "商品詳情",
-                        "specifications": "規格:",
-                        "table": [
-                            {
-                                "value": [
-                                    "插座數",
-                                    "長度",
-                                    "線規",
-                                    "伏特",
-                                    "安倍"
-                                ]
-                            },
-                            {
-                                "value": [
-                                    "8",
-                                    "10 FT",
-                                    "12AWG",
-                                    "125V",
-                                    "20A"
-                                ]
-                            }
-                        ],
-                        "buyText":"購買連結",
-                        "href": ""
-                    }
+                    
                 ]
             }
         ]

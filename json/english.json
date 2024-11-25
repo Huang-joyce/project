@@ -105,7 +105,7 @@
                 "imgUrl": "./images/about_1.jpg",
                 "imgAlt": "company",
                 "title": "",
-                "text": "OrandaCo_Electronics is a company established in 2024 with the purpose of importing advanced PDUs from Taiwan to the United States. We provide professional power distribution solutions to support the efficient operation of IT infrastructure, data centers, and industrial facilities."
+                "text": "Oranda Trading is a company established in 2024 with the purpose of importing advanced PDUs from Taiwan to the United States. We provide professional power distribution solutions to support the efficient operation of IT infrastructure, data centers, and industrial facilities."
             },
             {
                 "imgUrl": "./images/about_2.jpg",
@@ -185,7 +185,11 @@
                         "imgAlt": "電源組",
                         "title": "6-Outlet Metal Power Strip",
                         "text": [
-                            "Some quick example text to build on the card title and make up the bulk of the card's content."
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "specifications:",
@@ -201,16 +205,16 @@
                             },
                             {
                                 "value": [
-                                    "8",
+                                    "6",
                                     "10 FT",
-                                    "12AWG",
+                                    "14 AWG",
                                     "125V",
-                                    "20A"
+                                    "15A"
                                 ]
                             }
                         ],
                         "buyText":"ebay",
-                        "href": ""
+                        "href": "https://www.ebay.com/itm/365204131763"
                     }
                 ]
             },
@@ -223,7 +227,11 @@
                         "imgAlt": "電源組",
                         "title": "8-Outlet Metal Heavy Duty PDU with Display",
                         "text": [
-                            "Rack-Mountable Made with a metal enclosure for fire resistance and prevention Automatically shuts off during power overload; manual reset required"
+                            "Rack-Mountable",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "Displays real-time amperage and voltage for convenient power monitoring",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -248,7 +256,7 @@
                             }
                         ],
                         "buyText":"ebay",
-                        "href":""
+                        "href":"https://www.ebay.com/itm/365100883916"
                     }
                 ]
             },
@@ -261,7 +269,41 @@
                         "imgAlt": "電源組",
                         "title": "C13-C14",
                         "text": [
-                            "Specifications：6 Ft/14AWG, UL/SJT Maximum 15A, 125V"
+                            "Maximum 15A, 125V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "LENGTH",
+                                    "GAUGE",
+                                    "VOLTAGE",
+                                    "AMPERAGE"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "6 FT",
+                                    "14 AWG",
+                                    "125V",
+                                    "15A"
+                                ]
+                            }
+                        ],
+                        "buyText":"ebay",
+                        "href":"https://www.ebay.com/itm/365099482675"
+                    },
+                    {
+                        "imgUrl": "./images/Products/515_6FT.jpg",
+                        "imgAlt": "電源組",
+                        "title": "515P-515R",
+                        "text": [
+                            "Maximum 15A, 125V",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "specifications:",
@@ -292,7 +334,39 @@
                             }
                         ],
                         "buyText":"ebay",
-                        "href":""
+                        "href":"https://www.ebay.com/itm/365099482410"
+                    },
+                    {
+                        "imgUrl": "./images/Products/PDU_Plug_2.jpg",
+                        "imgAlt": "電源組",
+                        "title": "NEMA L6-30P",
+                        "text": [
+                            "Maximum 30A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "Pole",
+                                    "Wire",
+                                    "GAUGE",
+                                    "HZ"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "2",
+                                    "3",
+                                    "14 AWG",
+                                    "60"
+                                ]
+                            }
+                        ],
+                        "buyText":"ebay",
+                        "href":"https://www.ebay.com/itm/365173740646"
                     }
                 ]
             },
@@ -300,38 +374,7 @@
                 "id": "5",
                 "text": "Personal",
                 "subList": [
-                    {
-                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
-                        "imgAlt": "電源組",
-                        "title": "客製化8-Outlet Metal Heavy Duty PDU with Display",
-                        "text": [
-                            "Some quick example text to build on the card title and make up the bulk of the card's content."
-                        ],
-                        "buttonText": "Product details",
-                        "specifications": "specifications:",
-                        "table": [
-                            {
-                                "value": [
-                                    "OUTLETS",
-                                    "LENGTH",
-                                    "GAUGE",
-                                    "VOLTAGE",
-                                    "AMPERAGE"
-                                ]
-                            },
-                            {
-                                "value": [
-                                    "8",
-                                    "10 FT",
-                                    "12AWG",
-                                    "125V",
-                                    "20A"
-                                ]
-                            }
-                        ],
-                        "buyText":"ebay",
-                        "href":""
-                    }
+                  
                 ]
             }
         ]
