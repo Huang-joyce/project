@@ -50,7 +50,7 @@ $(function () {
         if (data.introduction) {
             var introduction = data.introduction
             innerHtml += ' <div class="home-introduction">'
-                + '<div class="container-fluid">'
+                + '<div class="container-lg">'
                 + '<div class="text-center">'
                 + '<p class="fw-bold font-32px fcolor-green">' + introduction.title + '</p>'
                 + '</div>'
@@ -76,12 +76,12 @@ $(function () {
         if (data.certification) {
             var certification = data.certification
             innerHtml += '<div class="home-certification bg-lightgray">'
-                + '<div class="container-fluid">'
+                + '<div class="container-lg">'
                 + '<div class="text-center">'
                 + '<p class="fw-bold font-32px fcolor-green">' + certification.title + '</p>'
                 + '</div>'
                 + '<div >'
-                + '<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">';
+                + '<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center">';
             certification.content.forEach(e => {
                 innerHtml += '<div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="0">'
                     + '<div class="card  m-2 p-4 border-0">'
@@ -112,7 +112,7 @@ $(function () {
         if (getParameterByName('language'))
             isEnglish = true;
         innerHtml += '<div class="positoin-relative product-environment">'
-            + '<div class="container-fluid">'
+            + '<div class="container-lg">'
             + '<div class="text-center">'
             + '<p class="fw-bold font-32px fcolor-green">' + data.title + '</p>'
             + '</div>'
@@ -139,13 +139,13 @@ $(function () {
                     var subList = e.subList;
                     innerHtml += '<div class="tab-pane" id="product' + i + '" role="tabpanel" aria-labelledby="pills-home-tab">'
                         + '<div>'
-                        + '<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4" data-aos="zoom-in" data-aos-duration="1000">';
+                        + '<div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-sm-start" data-aos="zoom-in" data-aos-duration="1000">';
                     subList.forEach((item, index) => {
                         var itemHref = 'productDetail.html?item=' + i + '-' + index;
                         if (isEnglish) {
                             itemHref = 'productDetail.html?language=english&item=' + i + '-' + index;
                         }
-                        innerHtml += '<div class="col mb-3">'
+                        innerHtml += '<div class="col-10 col-sm-4 col-lg-3 mb-3">'
                             + '<div class="card">'
                             + '<a href=' + itemHref + ' class="text-decoration-none text-secondary">'
                             + '<img src=' + item.imgUrl + ' class="card-img-top" alt="' + item.imgAlt + '">'
@@ -164,7 +164,7 @@ $(function () {
                 } else {
                     innerHtml += '<div class="tab-pane show active" id="product0" role="tabpanel" aria-labelledby="pills-home-tab">'
                         + '<div>'
-                        + '<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4" data-aos="zoom-in" data-aos-duration="1000">';
+                        + '<div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-sm-start" data-aos="zoom-in" data-aos-duration="1000">';
                     allList.forEach((item, index) => {
                         index++
                         item.forEach((items, number) => {
@@ -172,7 +172,7 @@ $(function () {
                             if (isEnglish) {
                                 itemHref = 'productDetail.html?language=english&item=' + index + '-' + number;
                             }
-                            innerHtml += '<div class="col mb-3">'
+                            innerHtml += '<div class="col-10 col-sm-4 col-lg-3 mb-3">'
                                 + '<div class="card">'
                                 + '<a href=' + itemHref + ' class="text-decoration-none text-secondary">'
                                 + '<img src=' + items.imgUrl + ' class="card-img-top" alt="' + items.imgAlt + '">'
@@ -216,8 +216,15 @@ $(function () {
             + '<div class="col-12 col-md-7">'
             + '<div>'
             + '<p class="fw-bold font-24px">' + detail.title + '</p>'
-            + '<p>' + detail.text + '</p>'
-            + '<p>' + detail.specifications + '</p>'
+            + '<div class="mb-2">';
+        if (detail.text) {
+            var detailText = detail.text;
+            detailText.forEach(e => {
+                innerHtml += '<span class="d-block">' + e + '</span>'
+            })
+        }
+        innerHtml += '</div>';
+        + '<p>' + detail.specifications + '</p>'
         if (detail.table) {
             var table = detail.table;
             innerHtml += '<table class="table  mb-5 table-striped text-center">';
@@ -243,6 +250,8 @@ $(function () {
             })
             innerHtml += '</table>';
         }
+        innerHtml += '<a class="text-decoration-none link-dark fw-bold" href=' + detail.href + '>'
+        +detail.buyText+'  &rarr;</a>';
         innerHtml += '</div>';
         +'</div>'
             + '</div>'
@@ -300,14 +309,20 @@ $(function () {
             + '<p class="fw-bold font-32px">' + data.title + '</p>'
             + '</div>'
             + '<div class="d-flex  justify-content-center align-items-center text-center">'
-            + '<div class="col-lg-6 col-10">';
+            + '<div class="col-lg-7 col-10">';
         if (data.content) {
             var content = data.content;
-            content.forEach(e => {
+            content.forEach((e, index) => {
                 innerHtml += '<div class=" mb-3" data-aos="zoom-in" data-aos-duration="1000">'
                     + '<div class="card border-0 justify-content-center align-items-center">'
                     + '<span class="d-inline-block">'
-                    + '<img src=' + e.imgUrl + ' class="card-img-top " alt=' + e.imgUrl + '>'
+                    + '<img src=' + e.imgUrl + ' class=" ';
+                if (index === 0)
+                    innerHtml += 'w-100 '
+                else
+                    innerHtml += 'card-img-top'
+
+                innerHtml += '" alt=' + e.imgUrl + '>'
                     + '</span>'
                     + '<div class="card-body">'
                     + '<h5 class="card-title fw-bold">' + e.title + '</h5>'
@@ -355,6 +370,7 @@ $(function () {
         if (typeof data.product == 'object') {
             var product = showProduct(data.product)
             $('.js-product').append(product);
+            locationHashChanged()
         }
 
         if (typeof data.contact == 'object') {
@@ -378,6 +394,14 @@ $(function () {
             var productDetail = ProductDetail(data.product, mainNumber, subNumber)
             $('.js-productDetail').append(productDetail);
         }
+
+        $('.closeBtn').on('click', function () {
+            $('#navbarSupportedContent').addClass('remove')
+            setTimeout(() => {
+                $('#navbarSupportedContent').removeClass('show')
+                $('#navbarSupportedContent').removeClass('remove')
+            }, 900)
+        })
 
         AOS.init();
 
@@ -420,4 +444,31 @@ $(function () {
     else {
         getData('chinese');
     }
+
+    function locationHashChanged() {
+        if (window.location.hash != '') {
+            switch (window.location.hash) {
+                case '#product0':
+                    $('button[data-bs-target="#product0"]').click();
+                    break;
+                case '#product1':
+                    $('button[data-bs-target="#product1"]').click();
+                    break;
+                case '#product2':
+                    $('button[data-bs-target="#product2"]').click();
+                    break;
+                case '#product3':
+                    $('button[data-bs-target="#product3"]').click();
+                    break;
+                case '#product4':
+                    $('button[data-bs-target="#product4"]').click();
+                    break;
+                default:
+                    break;
+            }
+        }
+      }
+    window.onhashchange = locationHashChanged;
+    
+
 })

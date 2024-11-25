@@ -19,23 +19,23 @@
                 "list": [
                     {
                         "text": "全部產品",
-                        "href": "./product.html?"
+                        "href": "./product.html?#product0"
                     },
                     {
                         "text": "基本型電源組",
-                        "href": "./product.html?#product2"
+                        "href": "./product.html?#product1"
                     },
                     {
                         "text": "數位型電源組",
-                        "href": "./product.html?#product3"
+                        "href": "./product.html?#product2"
                     },
                     {
                         "text": "NEMA轉接縣/轉接頭",
-                        "href": "./product.html?#product4"
+                        "href": "./product.html?#product3"
                     },
                     {
                         "text": "客製化",
-                        "href": "./product.html?#product5"
+                        "href": "./product.html?#product4"
                     }
                 ]
             },
@@ -49,11 +49,11 @@
                 "list": [
                     {
                         "text": "中文",
-                        "href": "./index.html?"
+                        "href": "?"
                     },
                     {
                         "text": "英文",
-                        "href": "./index.html?language=english"
+                        "href": "?language=english"
                     }
                 ]
             }
@@ -64,28 +64,28 @@
             "title": "經營理念",
             "text": "Empowering Your Potential. Every Connection Counts."
         },
-        "introduction":{
-            "title":"簡介",
+        "introduction": {
+            "title": "簡介",
             "content": [
                 {
                     "imgUrl": "./images/introduction_1.jpg",
-                    "imgAlt":"電源分配器圖示",
+                    "imgAlt": "電源分配器圖示",
                     "text": "PDU (Power Distribution Unit, 電源分配器) 俗稱 插座，是專門給伺服器等網絡設備供電的工業插座，並且電壓承載高，功率也大。最主要的是工業插座分成鐵殼和鋁合金材質，內部完全絕緣，不會出現火災。"
                 },
                 {
                     "imgUrl": "./images/introduction_2.jpg",
-                    "imgAlt":"安全性圖示",
+                    "imgAlt": "安全性圖示",
                     "text": "PDU產品的安全可靠性要遠高於普通的電源插座。為了提升用電設備的安全性，PDU不僅要能夠承受IT機房設計負載的總功率，還要具有優異的過載保護機制，防止因為過載而可能發生的電路過熱而可能引發的失火事故。"
                 },
                 {
                     "imgUrl": "./images/introduction_3.jpg",
-                    "imgAlt":"三個齒輪圖示",
+                    "imgAlt": "三個齒輪圖示",
                     "text": "通過具有過載斷電保護和多重電路保護功能的PDU，可防止過載、高溫、失火等危害,最大限度的提升產品的安全係數。此外，PDU可幫助使用者節省人力，有效降低管理和維護成本，性價比高。"
                 }
             ]
         },
         "certification": {
-            "title":"認證",
+            "title": "認證",
             "content": [
                 {
                     "imgUrl": "./images/certification_1.jpg",
@@ -137,30 +137,30 @@
         "title": "聯繫我們",
         "text": "We respond within 24 hours!",
         "form": {
-            "method":"POST",
-            "action":"",
-            "buttonText":"提交",
-            "content":[
+            "method": "POST",
+            "action": "",
+            "buttonText": "提交",
+            "content": [
                 {
-                    "class":"col-md-6",
+                    "class": "col-md-6",
                     "control": "input",
                     "type": "text",
                     "text": "姓名"
                 },
                 {
-                    "class":"col-md-6",
+                    "class": "col-md-6",
                     "control": "input",
                     "type": "email",
                     "text": "電子信箱"
                 },
                 {
-                    "class":"col-md-12",
+                    "class": "col-md-12",
                     "control": "input",
                     "type": "phone",
                     "text": "手機號碼"
                 },
                 {
-                    "class":"col-md-12",
+                    "class": "col-md-12",
                     "control": "textarea",
                     "type": "textarea",
                     "text": "說明"
@@ -170,27 +170,29 @@
     },
     "product": {
         "title": "產品內容",
-        "detailTitle":"產品詳情",
+        "detailTitle": "產品詳情",
         "list": [
             {
                 "id": "1",
                 "text": "全部"
-
             },
             {
                 "id": "2",
                 "text": "基本型電源組",
-                "subList":[
+                "subList": [
                     {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
-                        "imgAlt":"電源組",
-                        "title":"8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"Some quick example",
-                        "buttonText":"商品詳情",
-                        "specifications":"規格:",
-                        "table":[
+                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgAlt": "電源組",
+                        "title": "8-Outlet Metal Heavy Duty PDU with Display",
+                        "text": [
+                            "Some quick example",
+                            "assdasd"
+                        ],
+                        "buttonText": "商品詳情",
+                        "specifications": "規格:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "插座數",
                                     "長度",
                                     "線規",
@@ -199,7 +201,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "8",
                                     "10 FT",
                                     "12AWG",
@@ -207,17 +209,22 @@
                                     "20A"
                                 ]
                             }
-                        ]
-                    },  {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
-                        "imgAlt":"電源組",
-                        "title":"8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"Some quick example",
-                        "buttonText":"商品詳情",
-                        "specifications":"規格:",
-                        "table":[
+                        ],
+                        "buyText":"購買連結",
+                        "href": ""
+                    },
+                    {
+                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgAlt": "電源組",
+                        "title": "8-Outlet Metal Heavy Duty PDU with Display",
+                        "text": [
+                            "Some quick example"
+                        ],
+                        "buttonText": "商品詳情",
+                        "specifications": "規格:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "插座數",
                                     "長度",
                                     "線規",
@@ -226,7 +233,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "8",
                                     "10 FT",
                                     "12AWG",
@@ -234,24 +241,28 @@
                                     "20A"
                                 ]
                             }
-                        ]
+                        ],
+                        "buyText":"購買連結",
+                        "href": ""
                     }
                 ]
             },
             {
                 "id": "3",
                 "text": "數位型電源組",
-                "subList":[
+                "subList": [
                     {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
-                        "imgAlt":"電源組",
-                        "title":"數位8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"數位Some quick example",
-                        "buttonText":"商品詳情",
-                        "specifications":"規格:",
-                        "table":[
+                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgAlt": "電源組",
+                        "title": "數位8-Outlet Metal Heavy Duty PDU with Display",
+                        "text": [
+                            "Some quick example"
+                        ],
+                        "buttonText": "商品詳情",
+                        "specifications": "規格:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "插座數",
                                     "長度",
                                     "線規",
@@ -260,7 +271,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "8",
                                     "10 FT",
                                     "12AWG",
@@ -268,24 +279,28 @@
                                     "20A"
                                 ]
                             }
-                        ]
+                        ],
+                        "buyText":"購買連結",
+                        "href": ""
                     }
                 ]
             },
             {
                 "id": "4",
                 "text": "NEMA轉接線/轉接頭",
-                "subList":[
+                "subList": [
                     {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
-                        "imgAlt":"電源組",
-                        "title":"NEMA8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"NEMASome quick example",
-                        "buttonText":"商品詳情",
-                        "specifications":"規格:",
-                        "table":[
+                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgAlt": "電源組",
+                        "title": "NEMA8-Outlet Metal Heavy Duty PDU with Display",
+                        "text": [
+                            "Some quick example"
+                        ],
+                        "buttonText": "商品詳情",
+                        "specifications": "規格:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "插座數",
                                     "長度",
                                     "線規",
@@ -294,7 +309,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "8",
                                     "10 FT",
                                     "12AWG",
@@ -302,24 +317,29 @@
                                     "20A"
                                 ]
                             }
-                        ]
+                        ],
+                        "buyText":"購買連結",
+                         "href": ""
                     }
                 ]
             },
             {
                 "id": "5",
                 "text": "客製化",
-                "subList":[
+                "subList": [
                     {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
-                        "imgAlt":"電源組",
-                        "title":"客製化8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"客製化Some quick example",
-                        "buttonText":"商品詳情",
-                        "specifications":"規格:",
-                        "table":[
+                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgAlt": "電源組",
+                        "title": "客製化8-Outlet Metal Heavy Duty PDU with Display",
+                        "text": [
+                            "Some quick example",
+                            "Some quick example"
+                        ],
+                        "buttonText": "商品詳情",
+                        "specifications": "規格:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "插座數",
                                     "長度",
                                     "線規",
@@ -328,7 +348,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "8",
                                     "10 FT",
                                     "12AWG",
@@ -336,7 +356,9 @@
                                     "20A"
                                 ]
                             }
-                        ]
+                        ],
+                        "buyText":"購買連結",
+                        "href": ""
                     }
                 ]
             }

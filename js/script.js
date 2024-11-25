@@ -19,34 +19,29 @@ $(function () {
         })
       })
 
-    $('.closeBtn').on('click', function () {
-        $('#navbarSupportedContent').addClass('remove')
-        setTimeout(() => {
-            $('#navbarSupportedContent').removeClass('show')
-            $('#navbarSupportedContent').removeClass('remove')
-        }, 900)
-    })
-
     $("#myTab .nav-item a.changeHomeTab").on("click", function (e) {
         document.location.href = 'index.html?' + $(this).attr("href");
     });
    
     if (window.location.hash != '') {
-        switch (window.location.hash) {
-            case '#product2':
-                $('button[data-bs-target="#product2"]').click();
-                break;
-            case '#product3':
-                $('button[data-bs-target="#product3"]').click();
-                break;
-            case '#product4':
-                $('button[data-bs-target="#product4"]').click();
-                break;
-            case '#product5':
-                $('button[data-bs-target="#product5"]').click();
-                break;
-            default:
-                break;
-        }
-    }
+      switch (window.location.hash) {
+          case '#product0':
+              $('button[data-bs-target="#product0"]').click();
+              break;
+          case '#product1':
+              $('button[data-bs-target="#product1"]').click();
+              break;
+          case '#product2':
+              $('button[data-bs-target="#product2"]').click();
+              break;
+          case '#product3':
+              $('button[data-bs-target="#product3"]').click();
+              break;
+          case '#product4':
+              $('button[data-bs-target="#product4"]').click();
+              break;
+          default:
+              break;
+      }
+  }
 });

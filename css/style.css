@@ -70,6 +70,14 @@ body{
     /* right: 30px; */
     left: auto;
 }
+.dropdown-item.active,.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(1, 73, 0);
+}
+.closeBtn {
+    cursor: pointer;
+}
 .SecMenu{
     display: none;
     position: absolute;
@@ -171,8 +179,9 @@ body{
     top: auto;
 }
 .product-environment{
-    padding: 50px 0;
+    padding: 70px 0;
     overflow: hidden;  
+    min-height: 700px;
 }
 .card-title{
     line-height: 1.5;
@@ -193,7 +202,7 @@ body{
     min-height: 100px;
 }
 #InformationContent .card .card-body .card-title {
-    min-height: 50px;
+    min-height: 90px;
 }
 @keyframes scale{
     0%{

@@ -19,23 +19,23 @@
                 "list": [
                     {
                         "text": "ALL",
-                        "href": "./product.html?language=english"
+                        "href": "./product.html?language=english#product0"
                     },
                     {
                         "text": "Basic PDU",
-                        "href": "./product.html?language=english#product2"
+                        "href": "./product.html?language=english#product1"
                     },
                     {
                         "text": "Digital PDU",
-                        "href": "./product.html?language=english#product3"
+                        "href": "./product.html?language=english#product2"
                     },
                     {
                         "text": "Plug Adapter/Extension Cord",
-                        "href": "./product.html?language=english#product4"
+                        "href": "./product.html?language=english#product3"
                     },
                     {
                         "text": "Customized",
-                        "href": "./product.html?language=english#product5"
+                        "href": "./product.html?language=english#product4"
                     }
                 ]
             },
@@ -49,11 +49,11 @@
                 "list": [
                     {
                         "text": "Chinese",
-                        "href": "./index.html?"
+                        "href": "?"
                     },
                     {
                         "text": "English",
-                        "href": "./index.html?language=english"
+                        "href": "?language=english"
                     }
                 ]
             }
@@ -64,28 +64,28 @@
             "title": "Business Belief",
             "text": "Empowering Your Potential. Every Connection Counts."
         },
-        "introduction":{
-            "title":"Introduction",
+        "introduction": {
+            "title": "Introduction",
             "content": [
                 {
                     "imgUrl": "./images/introduction_1.jpg",
-                    "imgAlt":"電源分配器圖示",
+                    "imgAlt": "電源分配器圖示",
                     "text": "PDU (Power Distribution Unit), commonly known as a power strip, is an industrial-grade power outlet specifically designed to supply power to servers and other network equipment. It features high voltage capacity and substantial power output. The primary construction materials for industrial-grade power strips are metal or aluminum alloy casings, which are fully insulated internally to eliminate the risk of fire hazards."
                 },
                 {
                     "imgUrl": "./images/introduction_2.jpg",
-                    "imgAlt":"安全性圖示",
+                    "imgAlt": "安全性圖示",
                     "text": "The safety and reliability of PDU products far exceed those of standard power outlets. To enhance the safety of powered devices, a PDU must not only handle the total designed load capacity of an IT server room but also provide superior overload protection mechanisms to prevent overheating and potential fire hazards caused by circuit overload."
                 },
                 {
                     "imgUrl": "./images/introduction_3.jpg",
-                    "imgAlt":"三個齒輪圖示",
+                    "imgAlt": "三個齒輪圖示",
                     "text": "With built-in overload protection and multi-layer circuit protection features, PDUs can effectively safeguard against overload, high temperatures, and fire risks, significantly improving overall safety. Additionally, PDUs help users save on labor costs, effectively reduce management and maintenance expenses, and deliver excellent cost performance."
                 }
             ]
         },
         "certification": {
-            "title":"Certification",
+            "title": "Certification",
             "content": [
                 {
                     "imgUrl": "./images/certification_1.jpg",
@@ -137,30 +137,30 @@
         "title": "Contact Us",
         "text": "We respond within 24 hours!",
         "form": {
-            "method":"POST",
-            "action":"",
-            "buttonText":"Submit",
-            "content":[
+            "method": "POST",
+            "action": "",
+            "buttonText": "Submit",
+            "content": [
                 {
-                    "class":"col-md-6",
+                    "class": "col-md-6",
                     "control": "input",
                     "type": "text",
                     "text": "Name"
                 },
                 {
-                    "class":"col-md-6",
+                    "class": "col-md-6",
                     "control": "input",
                     "type": "email",
                     "text": "E-mail"
                 },
                 {
-                    "class":"col-md-12",
+                    "class": "col-md-12",
                     "control": "input",
                     "type": "phone",
                     "text": "Phone Number"
                 },
                 {
-                    "class":"col-md-12",
+                    "class": "col-md-12",
                     "control": "textarea",
                     "type": "textarea",
                     "text": "Comment"
@@ -170,27 +170,28 @@
     },
     "product": {
         "title": "Product",
-        "detailTitle":"Product details",
+        "detailTitle": "Product details",
         "list": [
             {
                 "id": "1",
                 "text": "ALL"
-
             },
             {
                 "id": "2",
                 "text": "Basic Power Distribution Unit",
-                "subList":[
+                "subList": [
                     {
-                        "imgUrl":"./images/Products/PowerstripSwitch2.jpg",
-                        "imgAlt":"電源組",
-                        "title":"6-Outlet Metal Power Strip",
-                        "text":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                        "buttonText":"Product details",
-                        "specifications":"specifications:",
-                        "table":[
+                        "imgUrl": "./images/Products/PowerstripSwitch2.jpg",
+                        "imgAlt": "電源組",
+                        "title": "6-Outlet Metal Power Strip",
+                        "text": [
+                            "Some quick example text to build on the card title and make up the bulk of the card's content."
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "specifications:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "OUTLETS",
                                     "LENGTH",
                                     "GAUGE",
@@ -199,7 +200,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "8",
                                     "10 FT",
                                     "12AWG",
@@ -207,24 +208,28 @@
                                     "20A"
                                 ]
                             }
-                        ]
+                        ],
+                        "buyText":"ebay",
+                        "href": ""
                     }
                 ]
             },
             {
                 "id": "3",
                 "text": "Digital Power Distribution Unit",
-                "subList":[
+                "subList": [
                     {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
-                        "imgAlt":"電源組",
-                        "title":"8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"Rack-Mountable Made with a metal enclosure for fire resistance and prevention Automatically shuts off during power overload; manual reset required",
-                        "buttonText":"Product details",
-                        "specifications":"Specifications:",
-                        "table":[
+                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgAlt": "電源組",
+                        "title": "8-Outlet Metal Heavy Duty PDU with Display",
+                        "text": [
+                            "Rack-Mountable Made with a metal enclosure for fire resistance and prevention Automatically shuts off during power overload; manual reset required"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "OUTLETS",
                                     "LENGTH",
                                     "GAUGE",
@@ -233,7 +238,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "8",
                                     "10 FT",
                                     "12AWG",
@@ -241,24 +246,28 @@
                                     "20A"
                                 ]
                             }
-                        ]
+                        ],
+                        "buyText":"ebay",
+                        "href":""
                     }
                 ]
             },
             {
                 "id": "4",
                 "text": "Plug Adapter/Extension Cord",
-                "subList":[
+                "subList": [
                     {
-                        "imgUrl":"./images/Products/C13_6FT.jpg",
-                        "imgAlt":"電源組",
-                        "title":"C13-C14",
-                        "text":"Specifications：6 Ft/14AWG, UL/SJT Maximum 15A, 125V",
-                        "buttonText":"Product details",
-                        "specifications":"specifications:",
-                        "table":[
+                        "imgUrl": "./images/Products/C13_6FT.jpg",
+                        "imgAlt": "電源組",
+                        "title": "C13-C14",
+                        "text": [
+                            "Specifications：6 Ft/14AWG, UL/SJT Maximum 15A, 125V"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "specifications:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "LENGTH",
                                     "GAUGE",
                                     "VOLTAGE",
@@ -266,7 +275,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "1 FT",
                                     "14 AWG",
                                     "125V",
@@ -274,31 +283,35 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "6 FT",
                                     "14 AWG",
                                     "125V",
                                     "15A"
                                 ]
                             }
-                        ]
+                        ],
+                        "buyText":"ebay",
+                        "href":""
                     }
                 ]
             },
             {
                 "id": "5",
                 "text": "Personal",
-                "subList":[
+                "subList": [
                     {
-                        "imgUrl":"./images/Products/PowerstripDigital.jpg",
-                        "imgAlt":"電源組",
-                        "title":"客製化8-Outlet Metal Heavy Duty PDU with Display",
-                        "text":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                        "buttonText":"Product details",
-                        "specifications":"specifications:",
-                        "table":[
+                        "imgUrl": "./images/Products/PowerstripDigital.jpg",
+                        "imgAlt": "電源組",
+                        "title": "客製化8-Outlet Metal Heavy Duty PDU with Display",
+                        "text": [
+                            "Some quick example text to build on the card title and make up the bulk of the card's content."
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "specifications:",
+                        "table": [
                             {
-                                "value":[
+                                "value": [
                                     "OUTLETS",
                                     "LENGTH",
                                     "GAUGE",
@@ -307,7 +320,7 @@
                                 ]
                             },
                             {
-                                "value":[
+                                "value": [
                                     "8",
                                     "10 FT",
                                     "12AWG",
@@ -315,7 +328,9 @@
                                     "20A"
                                 ]
                             }
-                        ]
+                        ],
+                        "buyText":"ebay",
+                        "href":""
                     }
                 ]
             }
