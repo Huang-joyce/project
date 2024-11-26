@@ -32,10 +32,6 @@
                     {
                         "text": "Plug Adapter/Extension Cord",
                         "href": "./product.html?language=english#product3"
-                    },
-                    {
-                        "text": "Customized",
-                        "href": "./product.html?language=english#product4"
                     }
                 ]
             },
@@ -48,7 +44,7 @@
                 "href": "#",
                 "list": [
                     {
-                        "text": "Chinese",
+                        "text": "中文",
                         "href": "?"
                     },
                     {
@@ -350,31 +346,22 @@
                         "table": [
                             {
                                 "value": [
-                                    "Pole",
-                                    "Wire",
-                                    "GAUGE",
-                                    "HZ"
+                                    "PRODUCT STYLE",
+                                    "AMP/VOLT",
+                                    "WIRE SIZE"
                                 ]
                             },
                             {
                                 "value": [
-                                    "2",
-                                    "3",
-                                    "14 AWG",
-                                    "60"
+                                    "2 POLE, 3 WIRE",
+                                    "30A, 250V AC 60HZ",
+                                    "10 AWG"
                                 ]
                             }
                         ],
                         "buyText":"ebay",
                         "href":"https://www.ebay.com/itm/365173740646"
                     }
-                ]
-            },
-            {
-                "id": "5",
-                "text": "Personal",
-                "subList": [
-                  
                 ]
             }
         ]

@@ -32,10 +32,6 @@
                     {
                         "text": "NEMA轉接縣/轉接頭",
                         "href": "./product.html?#product3"
-                    },
-                    {
-                        "text": "客製化",
-                        "href": "./product.html?#product4"
                     }
                 ]
             },
@@ -52,7 +48,7 @@
                         "href": "?"
                     },
                     {
-                        "text": "英文",
+                        "text": "English",
                         "href": "?language=english"
                     }
                 ]
@@ -205,11 +201,11 @@
                             },
                             {
                                 "value": [
-                                    "8",
+                                    "6",
                                     "10 FT",
-                                    "12 AWG",
+                                    "14 AWG",
                                     "125V",
-                                    "20A"
+                                    "15A"
                                 ]
                             }
                         ],
@@ -225,7 +221,7 @@
                     {
                         "imgUrl": "./images/Products/PowerstripDigital.jpg",
                         "imgAlt": "電源組",
-                        "title": "數位8-Outlet Metal Heavy Duty PDU with Display",
+                        "title": "8-Outlet Metal Heavy Duty PDU with Display",
                         "text": [
                             "可安裝於機櫃",
                             "鐵殼製作耐燃防止燃燒",
@@ -353,31 +349,22 @@
                         "table": [
                             {
                                 "value": [
-                                    "Pole",
-                                    "Wire",
-                                    "線規",
-                                    "HZ"
+                                    "產品類型",
+                                    "安倍/伏特",
+                                    "線規"
                                 ]
                             },
                             {
                                 "value": [
-                                    "2",
-                                    "3",
-                                    "10 AWG",
-                                    "60 HZ"
+                                    "2 POLE, 3 WIRE",
+                                    "30A, 250V AC 60HZ",
+                                    "10 AWG"
                                 ]
                             }
                         ],
                         "buyText":"購買連結",
                          "href": "https://www.ebay.com/itm/365173740646"
                     }
-                ]
-            },
-            {
-                "id": "5",
-                "text": "客製化",
-                "subList": [
-                    
                 ]
             }
         ]
