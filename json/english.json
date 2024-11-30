@@ -40,7 +40,7 @@
                 "href": "./contact.html?language=english"
             },
             {
-                "text": "<img class='img ms-2' src='images/earth-grid.png'>",
+                "text": "<span class='d-inlin-block global'></span>",
                 "href": "''",
                 "list": [
                     {
