@@ -15,7 +15,7 @@
             },
             {
                 "text": "產品內容",
-                "href": "#",
+                "href": "''",
                 "list": [
                     {
                         "text": "全部產品",
@@ -40,8 +40,8 @@
                 "href": "./contact.html"
             },
             {
-                "text": "語言",
-                "href": "#",
+                "text": "<span class='d-inlin-block global'></span>",
+                "href": "''",
                 "list": [
                     {
                         "text": "中文",
@@ -180,7 +180,7 @@
                         "imgUrl": "./images/Products/PowerstripSwitch2.jpg",
                         "imgAlt": "電源組",
                         "title": "6-Outlet Metal Power Strip",
-                        "text": [
+                        "description": [
                             "可安裝於機櫃",
                             "鐵殼製作耐燃防止燃燒",
                             "用電過載時自動斷電,需手動復規",
@@ -209,8 +209,15 @@
                                 ]
                             }
                         ],
-                        "buyText":"購買連結",
-                        "href": "https://www.ebay.com/itm/365204131763"
+                        "Remark": [
+                            ""
+                        ],
+                        "buyLink": [
+                            {
+                                "text": "購買連結",
+                                "href": "https://www.ebay.com/itm/365204131763"
+                            }
+                        ]
                     }
                 ]
             },
@@ -222,7 +229,7 @@
                         "imgUrl": "./images/Products/PowerstripDigital.jpg",
                         "imgAlt": "電源組",
                         "title": "8-Outlet Metal Heavy Duty PDU with Display",
-                        "text": [
+                        "description": [
                             "可安裝於機櫃",
                             "鐵殼製作耐燃防止燃燒",
                             "用電過載時自動斷電,需手動復規",
@@ -252,8 +259,15 @@
                                 ]
                             }
                         ],
-                        "buyText":"購買連結",
-                        "href": "https://www.ebay.com/itm/365100883916"
+                        "Remark": [
+                            ""
+                        ],
+                        "buyLink": [
+                            {
+                                "text": "購買連結",
+                                "href": "https://www.ebay.com/itm/365100883916"
+                            }
+                        ]
                     }
                 ]
             },
@@ -265,7 +279,7 @@
                         "imgUrl": "./images/Products/C13_6FT.jpg",
                         "imgAlt": "電源組",
                         "title": "C13-C14",
-                        "text": [
+                        "description": [
                             "最大15A, 125V",
                             "UL認證",
                             "台灣製造"
@@ -290,14 +304,21 @@
                                 ]
                             }
                         ],
-                        "buyText":"購買連結",
-                         "href": "https://www.ebay.com/itm/365099482675"
+                        "Remark": [
+                            ""
+                        ],
+                        "buyLink": [
+                            {
+                                "text": "購買連結",
+                                "href": "https://www.ebay.com/itm/365099482675"
+                            }
+                        ]
                     },
                     {
                         "imgUrl": "./images/Products/515_6FT.jpg",
                         "imgAlt": "電源組",
                         "title": "515P-515R",
-                        "text": [
+                        "description": [
                             "最大15A, 125V",
                             "UL認證",
                             "台灣製造"
@@ -330,14 +351,21 @@
                                 ]
                             }
                         ],
-                        "buyText":"購買連結",
-                        "href": "https://www.ebay.com/itm/365099482410"
+                        "Remark": [
+                            ""
+                        ],
+                        "buyLink": [
+                            {
+                                "text": "購買連結",
+                                "href": "https://www.ebay.com/itm/365099482410"
+                            }
+                        ]
                     },
                     {
                         "imgUrl": "./images/Products/PDU_Plug_2.jpg",
                         "imgAlt": "電源組",
                         "title": "NEMA L6-30P",
-                        "text": [
+                        "description": [
                             "最大30A, 250V",
                             "UL認證",
                             "台灣製造"
@@ -360,8 +388,15 @@
                                 ]
                             }
                         ],
-                        "buyText":"購買連結",
-                         "href": "https://www.ebay.com/itm/365173740646"
+                        "Remark": [
+                            ""
+                        ],
+                        "buyLink": [
+                            {
+                                "text": "購買連結",
+                                "href": "https://www.ebay.com/itm/365173740646"
+                            }
+                        ]
                     }
                 ]
             }

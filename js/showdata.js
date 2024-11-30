@@ -217,9 +217,9 @@ $(function () {
             + '<div>'
             + '<p class="fw-bold font-24px">' + detail.title + '</p>'
             + '<div class="mb-2">';
-        if (detail.text) {
-            var detailText = detail.text;
-            detailText.forEach(e => {
+        if (detail.description) {
+            var description = detail.description;
+            description.forEach(e => {
                 innerHtml += '<span class="d-block">' + e + '</span>'
             })
         }
@@ -250,8 +250,20 @@ $(function () {
             })
             innerHtml += '</table>';
         }
-        innerHtml += '<a class="text-decoration-none link-dark fw-bold" href=' + detail.href + '>'
-        +detail.buyText+'  &rarr;</a>';
+        innerHtml += '<div class="mb-2">';
+        if (detail.Remark) {
+            var Remark = detail.Remark;
+            Remark.forEach(e => {
+                innerHtml += '<span class="d-block">' + e + '</span>'
+            })
+        }
+        innerHtml += '</div>';
+        if (detail.buyLink) {
+            var buyLink = detail.buyLink;
+            buyLink.forEach(e => {
+                innerHtml += '<a class="text-decoration-none link-dark fw-bold d-block" href=' + e.href + '>' + e.text + '  &rarr;</a>'
+            })
+        }
         innerHtml += '</div>';
         +'</div>'
             + '</div>'
@@ -426,6 +438,7 @@ $(function () {
             .then((data) => {
                 console.log(data);
                 showData(data);
+                changeUrl();
             });
     }
 
@@ -467,8 +480,22 @@ $(function () {
                     break;
             }
         }
-      }
+    }
+
+    function changeUrl() {
+        $("a").each(function () {
+            if (getParameterByName('item') !== null) {
+                var _link = $(this).attr('href');
+                var _topHash = _link.split('?')[0];
+                if (_link.split('?')[1]) {
+                    var _Endhash = _link.split('?')[1];
+                    $(this).attr('href', _topHash + '?item=' + getParameterByName('item') + '&' + _Endhash)
+                } else {
+                    $(this).attr('href', _topHash + '?item=' + getParameterByName('item'))
+                }
+            }
+        })
+    }
     window.onhashchange = locationHashChanged;
-    
 
 })
