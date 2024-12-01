@@ -36,10 +36,6 @@
                 ]
             },
             {
-                "text": "聯繫我們",
-                "href": "./contact.html"
-            },
-            {
                 "text": "<span class='d-inlin-block global'></span>",
                 "href": "''",
                 "list": [
@@ -210,7 +206,7 @@
                             }
                         ],
                         "Remark": [
-                            ""
+                            "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
                             {
@@ -260,7 +256,7 @@
                             }
                         ],
                         "Remark": [
-                            ""
+                            "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
                             {
@@ -305,7 +301,7 @@
                             }
                         ],
                         "Remark": [
-                            ""
+                            "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
                             {
@@ -352,12 +348,16 @@
                             }
                         ],
                         "Remark": [
-                            ""
+                            "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
                             {
-                                "text": "購買連結",
+                                "text": " 1 FT 購買連結 ",
                                 "href": "https://www.ebay.com/itm/365099482410"
+                            },
+                            {
+                                "text": "6 FT 購買連結",
+                                "href": "https://www.ebay.com/itm/365099478729"
                             }
                         ]
                     },
@@ -389,7 +389,7 @@
                             }
                         ],
                         "Remark": [
-                            ""
+                            "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
                             {
