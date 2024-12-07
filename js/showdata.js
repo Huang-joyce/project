@@ -9,6 +9,7 @@ $(function () {
             + '<span class="navbar-toggler-icon"></span>'
             + '</button>'
             + '<div class="collapse navbar-collapse " id="navbarSupportedContent">'
+            + '<div class="mask"></div>'
             + '<ul class="navbar-nav nav-tabs nav ms-auto mb-2 mb-lg-0 border-0" id="myTab" role="tablist">'
             + '<li class="text-end px-2 closeBtn d-lg-none d-inline" >X</li>';
         data.nav.forEach((e, i) => {

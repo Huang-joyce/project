@@ -71,6 +71,7 @@ body{
     height: 24px;
     display: inline-block;
     margin: 0 10px;
+    vertical-align: top;
 }
 #navbarSupportedContent ul li:hover .SecMenu{
     display: block;
@@ -318,8 +319,9 @@ body{
         width: 24px;
         height: 24px;
         display: inline-block;
-        margin: 0 10px;
+        margin: 0;
     }
+
     #navbarSupportedContent ul li:hover .SecMenu{
         display: none;
     }
