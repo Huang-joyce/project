@@ -484,7 +484,7 @@ $(function () {
     }
 
     function changeUrl() {
-        $("a").each(function () {
+        $("li a").each(function () {
             if (getParameterByName('item') !== null) {
                 var _link = $(this).attr('href');
                 var _topHash = _link.split('?')[0];
