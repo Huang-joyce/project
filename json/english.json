@@ -62,17 +62,17 @@
                 {
                     "imgUrl": "./images/introduction_1.jpg",
                     "imgAlt": "電源分配器圖示",
-                    "text": "PDU (Power Distribution Unit), commonly known as a power strip, is an industrial-grade power outlet specifically designed to supply power to servers and other network equipment. It features high voltage capacity and substantial power output. The primary construction materials for industrial-grade power strips are metal or aluminum alloy casings, which are fully insulated internally to eliminate the risk of fire hazards."
+                    "text": "PDU (Power Distribution Unit), commonly known as a power strip, is an industrial-grade power outlet specifically designed to supply power to servers and other network equipment.<span class='d-block mt-2'>It features high voltage capacity and substantial power output. The primary construction materials for industrial-grade power strips are metal or aluminum alloy casings, which are fully insulated internally to eliminate the risk of fire hazards.</span>"
                 },
                 {
                     "imgUrl": "./images/introduction_2.jpg",
                     "imgAlt": "安全性圖示",
-                    "text": "The safety and reliability of PDU products far exceed those of standard power outlets. To enhance the safety of powered devices, a PDU must not only handle the total designed load capacity of an IT server room but also provide superior overload protection mechanisms to prevent overheating and potential fire hazards caused by circuit overload."
+                    "text": "The safety and reliability of PDU products far exceed those of standard power outlets. <span class='d-block mt-2'>To enhance the safety of powered devices, a PDU must not only handle the total designed load capacity of an IT server room but also provide superior overload protection mechanisms to prevent overheating and potential fire hazards caused by circuit overload.</span>"
                 },
                 {
                     "imgUrl": "./images/introduction_3.jpg",
                     "imgAlt": "三個齒輪圖示",
-                    "text": "With built-in overload protection and multi-layer circuit protection features, PDUs can effectively safeguard against overload, high temperatures, and fire risks, significantly improving overall safety. Additionally, PDUs help users save on labor costs, effectively reduce management and maintenance expenses, and deliver excellent cost performance."
+                    "text": "With built-in overload protection and multi-layer circuit protection features, PDUs can effectively safeguard against overload, high temperatures, and fire risks, significantly improving overall safety. <span class='d-block mt-2'>Additionally, PDUs help users save on labor costs, effectively reduce management and maintenance expenses, and deliver excellent cost performance.</span>"
                 }
             ]
         },
