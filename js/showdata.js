@@ -140,13 +140,13 @@ $(function () {
                     var subList = e.subList;
                     innerHtml += '<div class="tab-pane" id="product' + i + '" role="tabpanel" aria-labelledby="pills-home-tab">'
                         + '<div>'
-                        + '<div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-sm-start" data-aos="zoom-in" data-aos-duration="1000">';
+                        + '<div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-md-start" data-aos="zoom-in" data-aos-duration="1000">';
                     subList.forEach((item, index) => {
                         var itemHref = 'productDetail.html?item=' + i + '-' + index;
                         if (isEnglish) {
                             itemHref = 'productDetail.html?language=english&item=' + i + '-' + index;
                         }
-                        innerHtml += '<div class="col-10 col-sm-4 col-lg-3 mb-3">'
+                        innerHtml += '<div class="col-10 col-md-6 col-lg-4 col-xl-3 mb-3">'
                             + '<div class="card">'
                             + '<a href=' + itemHref + ' class="text-decoration-none text-secondary">'
                             + '<img src=' + item.imgUrl + ' class="card-img-top" alt="' + item.imgAlt + '">'
@@ -165,7 +165,7 @@ $(function () {
                 } else {
                     innerHtml += '<div class="tab-pane show active" id="product0" role="tabpanel" aria-labelledby="pills-home-tab">'
                         + '<div>'
-                        + '<div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-sm-start" data-aos="zoom-in" data-aos-duration="1000">';
+                        + '<div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-md-start" data-aos="zoom-in" data-aos-duration="1000">';
                     allList.forEach((item, index) => {
                         index++
                         item.forEach((items, number) => {
@@ -173,7 +173,7 @@ $(function () {
                             if (isEnglish) {
                                 itemHref = 'productDetail.html?language=english&item=' + index + '-' + number;
                             }
-                            innerHtml += '<div class="col-10 col-sm-4 col-lg-3 mb-3">'
+                            innerHtml += '<div class="col-10 col-md-6 col-lg-4 col-xl-3 mb-3">'
                                 + '<div class="card">'
                                 + '<a href=' + itemHref + ' class="text-decoration-none text-secondary">'
                                 + '<img src=' + items.imgUrl + ' class="card-img-top" alt="' + items.imgAlt + '">'
@@ -193,7 +193,7 @@ $(function () {
                 }
             })
             innerHtml += '</div>'
-                + '</div>'
+                +'</div>'
                 + '</div>';
         }
         return innerHtml;
@@ -209,9 +209,9 @@ $(function () {
             + '</div>'
             + '<div class="mb-5" data-aos="zoom-in" data-aos-duration="1500">'
             + '<div class="d-flex flex-wrap">'
-            + '<div class="col-12 col-md-5 mb-5">'
+            + '<div class="col-12 col-md-5 mb-5 px-md-3">'
             + '<span class="d-inline-block">'
-            + '<img src=' + detail.imgUrl + ' class="d-block w-100" alt=' + detail.imgAlt + '>'
+            + '<img src=' + detail.imgUrl + ' class="d-block w-100 " alt=' + detail.imgAlt + '>'
             + '</span>'
             + '</div>'
             + '<div class="col-12 col-md-7">'
@@ -368,7 +368,6 @@ $(function () {
             + '</div>';
         return innerHtml;
     }
-
     function showData(data) {
         if (typeof data.header == 'object') {
             var header = showHeader(data.header)
@@ -381,7 +380,7 @@ $(function () {
         }
 
         if (typeof data.product == 'object') {
-            var product = showProduct(data.product)
+            var product = showProduct(data.product);
             $('.js-product').append(product);
             locationHashChanged()
         }
