@@ -216,7 +216,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/A1-0802.jpg",
+                        "imgUrl": "./images/Products/A1-0802.png",
                         "imgAlt": "基本型A1-0802",
                         "title": "A1-0802",
                         "description": [
@@ -238,7 +238,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/A4-0401-S.jpg",
+                        "imgUrl": "./images/Products/A4-0401-S.png",
                         "imgAlt": "基本型A4-0401-S",
                         "title": "A4-0401-S",
                         "description": [
@@ -261,7 +261,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/A6-0801-SS.jpg",
+                        "imgUrl": "./images/Products/A6-0801-SS.png",
                         "imgAlt": "基本型A6-0801-SS",
                         "title": "A6-0801-SS",
                         "description": [
@@ -284,7 +284,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/C13-0802.jpg",
+                        "imgUrl": "./images/Products/C13-0802.png",
                         "imgAlt": "基本型C13-0802",
                         "title": "C13-0802",
                         "description": [
@@ -356,7 +356,7 @@
                             }
                         ]
                     },{
-                        "imgUrl": "./images/Products/A1-0805.jpg",
+                        "imgUrl": "./images/Products/A1-0805.png",
                         "imgAlt": "數位型電源組A1-0805",
                         "title": "A1-0805",
                         "description": [
@@ -378,7 +378,7 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/A1-0806.jpg",
+                        "imgUrl": "./images/Products/A1-0806.png",
                         "imgAlt": "數位型電源組A1-0806",
                         "title": "A1-0806",
                         "description": [
@@ -400,7 +400,7 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/A1-0821.jpg",
+                        "imgUrl": "./images/Products/A1-0821.png",
                         "imgAlt": "數位型電源組A1-0821",
                         "title": "A1-0821",
                         "description": [
@@ -422,7 +422,7 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/A3-0805.jpg",
+                        "imgUrl": "./images/Products/A3-0805.png",
                         "imgAlt": "數位型電源組A3-0805",
                         "title": "A3-0805",
                         "description": [
@@ -444,9 +444,9 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/A3J-0805.jpg",
+                        "imgUrl": "./images/Products/A3J-0805.png",
                         "imgAlt": "數位型電源組A3J-0805(PANASONIC LOCK)",
-                        "title": "A3J-0805(防脫落數位型)",
+                        "title": "A3J-0805(PANASONIC LOCK)",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
                             "鐵殼製作，防止燃燒",
@@ -466,7 +466,7 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/A5-1006.jpg",
+                        "imgUrl": "./images/Products/A5-1006.png",
                         "imgAlt": "數位型電源組A5-1006",
                         "title": "A5-1006",
                         "description": [
@@ -488,7 +488,7 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/C13-0806.jpg",
+                        "imgUrl": "./images/Products/C13-0806.png",
                         "imgAlt": "數位型電源組C13-0806",
                         "title": "C13-0806",
                         "description": [
@@ -510,7 +510,7 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/C13-1206.jpg",
+                        "imgUrl": "./images/Products/C13-1206.png",
                         "imgAlt": "數位型電源組C13-1206",
                         "title": "C13-1206",
                         "description": [
@@ -532,7 +532,7 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/C13-1615-0790.jpg",
+                        "imgUrl": "./images/Products/C13-1615-0790.png",
                         "imgAlt": "數位型電源組C13-1615-0790",
                         "title": "C13-1615-0790",
                         "description": [
@@ -554,7 +554,7 @@
                         "buyLink": [
                         ]
                     },{
-                        "imgUrl": "./images/Products/C19-0605.jpg",
+                        "imgUrl": "./images/Products/C19-0605.png",
                         "imgAlt": "數位型電源組C19-0605",
                         "title": "C19-0605",
                         "description": [
@@ -710,7 +710,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/5-20C.jpg",
+                        "imgUrl": "./images/Products/5-20C.png",
                         "imgAlt": "轉接頭5-20C",
                         "title": "5-20C",
                         "description": [
@@ -743,7 +743,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/5-20P.jpg",
+                        "imgUrl": "./images/Products/5-20P.png",
                         "imgAlt": "轉接頭5-20P",
                         "title": "5-20P",
                         "description": [
@@ -776,7 +776,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/6-20C.jpg",
+                        "imgUrl": "./images/Products/6-20C.png",
                         "imgAlt": "轉接頭6-20C",
                         "title": "6-20C",
                         "description": [
@@ -809,7 +809,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/6-20P.jpg",
+                        "imgUrl": "./images/Products/6-20P.png",
                         "imgAlt": "轉接頭6-20P",
                         "title": "6-20P",
                         "description": [
@@ -842,11 +842,11 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/IEC60309_32A-L630C.jpg",
+                        "imgUrl": "./images/Products/IEC60309_32A-L630C.png",
                         "imgAlt": "轉接頭IEC60309 32A-L630C",
                         "title": "IEC60309 32A-L630C",
                         "description": [
-                            "最大32A, 200~250V",
+                            "最大30A, 200~250V",
                             "UL認證",
                             "台灣製造"
                         ],
@@ -862,7 +862,7 @@
                             },
                             {
                                 "value": [
-                                    "32A, 200~250V AC 60HZ",
+                                    "30A, 200~250V AC 60HZ",
                                     "10 AWG",
                                     "UL"
                                 ]
@@ -876,7 +876,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/L5-20C.jpg",
+                        "imgUrl": "./images/Products/L5-20C.png",
                         "imgAlt": "轉接頭L5-20C",
                         "title": "L5-20C",
                         "description": [
@@ -909,7 +909,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/L5-20P.jpg",
+                        "imgUrl": "./images/Products/L5-20P.png",
                         "imgAlt": "轉接頭L5-20P",
                         "title": "L5-20P",
                         "description": [
@@ -942,7 +942,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/L5-30C.jpg",
+                        "imgUrl": "./images/Products/L5-30C.png",
                         "imgAlt": "轉接頭L5-30C",
                         "title": "L5-30C",
                         "description": [
@@ -975,7 +975,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/L5-30P.jpg",
+                        "imgUrl": "./images/Products/L5-30P.png",
                         "imgAlt": "轉接頭L5-30P",
                         "title": "L5-30P",
                         "description": [
@@ -1008,7 +1008,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/L6-20C.jpg",
+                        "imgUrl": "./images/Products/L6-20C.png",
                         "imgAlt": "轉接頭L6-20C",
                         "title": "L6-20C",
                         "description": [
@@ -1041,7 +1041,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/L6-20P.jpg",
+                        "imgUrl": "./images/Products/L6-20P.png",
                         "imgAlt": "轉接頭L6-20P",
                         "title": "L6-20P",
                         "description": [
@@ -1074,7 +1074,7 @@
                         ]
                     },
                     {
-                        "imgUrl": "./images/Products/L6-30C.jpg",
+                        "imgUrl": "./images/Products/L6-30C.png",
                         "imgAlt": "轉接頭L6-30C",
                         "title": "L6-30C",
                         "description": [

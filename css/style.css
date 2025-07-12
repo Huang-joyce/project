@@ -200,6 +200,10 @@ body{
 .card-img-top{
     max-height: 225px;
 }
+.card-img{
+    min-height: 225px;
+    text-align: center;
+}
 #InformationContent .card{
     box-shadow: 3px 3px 10px 3px #00000017;
 }
@@ -362,6 +366,10 @@ body{
     }
     .card-img-top{
         max-height: 264px;
+    }
+    .card-img{
+        min-height: 264px;
+        text-align: center;
     }
 }
 @keyframes slideright{
