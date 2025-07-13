@@ -177,7 +177,7 @@
                         "imgAlt": "電源組",
                         "title": "6-Outlet Metal Power Strip",
                         "description": [
-                            "Suitable for data center equipment and can be mounted in a rack",
+                            "Rack-Mountable",
                             "Made with a metal enclosure for fire resistance and prevention",
                             "Automatically shuts off during power overload; manual reset required",
                             "Cord, plug, and outlets are UL certified",
@@ -221,10 +221,10 @@
                         "imgAlt": "基本型A1-0802",
                         "title": "A1-0802",
                         "description": [
-                            "Suitable for data center equipment and can be mounted in a 19’‘ rack",
+                            "Rack-Mountable",
                             "Made with a metal enclosure for fire resistance and prevention",
                             "Automatically shuts off during power overload; manual reset required",
-                            "Cord, plug, and outlets are UL certified",
+                            "Cord, plug, and overload protector are UL certified",
                             "This product can be made in 15A, 20A, 30A",
                             "Made in Taiwan"
                         ],
@@ -244,7 +244,7 @@
                         "imgAlt": "基本型A4-0401-S",
                         "title": "A4-0401-S",
                         "description": [
-                            "Suitable for data center equipment and can be mounted in a 19’‘ rack",
+                            "Rack-Mountable",
                             "Made with a metal enclosure for fire resistance and prevention",
                             "Automatically shuts off during power overload; manual reset required",
                             "Cord, plug, and outlets are UL certified",
@@ -268,11 +268,12 @@
                         "imgAlt": "基本型A6-0801-SS",
                         "title": "A6-0801-SS",
                         "description": [
-                            "適用機房設備並可安裝於19‘’機櫃",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "電源線、插頭、插座以及開關符合UL認證",
-                            "本產品可製作15A、20A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "Cord, plug, and outlets are UL certified",
+                            "This product can be made in 15A, 20A",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -291,11 +292,12 @@
                         "imgAlt": "基本型C13-0802",
                         "title": "C13-0802",
                         "description": [
-                            "適用機房設備並可安裝於19‘’機櫃",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "電源線、插頭、插座以及過載保護器等符合UL認證",
-                            "本產品可製作15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "Cord, plug, and overload protector are UL certified",
+                            "This product can be made in 15A, 20A, 30A",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -321,8 +323,9 @@
                         "title": "8-Outlet Metal Heavy Duty PDU with Display",
                         "description": [
                             "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
                             "Automatically shuts off during power overload; manual reset required",
-                            "Displays real-time amperage and voltage for convenient power monitoring",
+                            "LED power meter displays real-time AMP and VOLT",
                             "UL Certified",
                             "Made in Taiwan"
                         ],
@@ -362,12 +365,13 @@
                         "imgAlt": "數位型電源組A1-0805",
                         "title": "A1-0805",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -384,12 +388,13 @@
                         "imgAlt": "數位型電源組A1-0806",
                         "title": "A1-0806",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -406,12 +411,13 @@
                         "imgAlt": "數位型電源組A1-0821",
                         "title": "A1-0821",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LCD電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -428,12 +434,13 @@
                         "imgAlt": "數位型電源組A3-0805",
                         "title": "A3-0805",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LCD power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -450,12 +457,13 @@
                         "imgAlt": "數位型電源組A3J-0805(PANASONIC LOCK)",
                         "title": "A3J-0805(PANASONIC LOCK)",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -472,12 +480,13 @@
                         "imgAlt": "數位型電源組A5-1006",
                         "title": "A5-1006",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -494,12 +503,13 @@
                         "imgAlt": "數位型電源組C13-0806",
                         "title": "C13-0806",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -516,12 +526,13 @@
                         "imgAlt": "數位型電源組C13-1206",
                         "title": "C13-1206",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -538,12 +549,13 @@
                         "imgAlt": "數位型電源組C13-1615-0790",
                         "title": "C13-1615-0790",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
@@ -560,12 +572,13 @@
                         "imgAlt": "數位型電源組C19-0605",
                         "title": "C19-0605",
                         "description": [
-                            "適用於機房設備並且可安裝於19’‘機櫃上",
-                            "鐵殼製作，防止燃燒",
-                            "用電過載時自動斷電",
-                            "LED電錶可即時顯示安培和伏特",
-                            "電源線、插頭、插座以及過載保護器符合UL安規",
-                            "可製作 15A、20A、30A"
+                            "Rack-Mountable",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "LED power meter displays real-time AMP and VOLT",
+                            "This product can be made in 15A, 20A, 30A",
+                            "UL Certified",
+                            "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
                         "specifications": "Specifications:",
