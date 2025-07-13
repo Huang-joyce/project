@@ -444,12 +444,19 @@ $(function () {
             $('.js-productDetail').append(productDetail) ;
             var allSameData =[];
             var mainNumberArray = [];
-            data.product.list.forEach((list)=>{
-                if(list.subList){
-                    allSameData.push(...list.subList)
-                    mainNumberArray.push(list.subList.length)
+            data.product.list.forEach((list,index)=>{
+                if(index===Number(mainNumber)){        
+                    mainNumberArray.push(list.subList.length);
+                    var filterList = list.subList.filter((item,i)=>i !== Number(subNumber));
+                     allSameData.push(...filterList);
+                }else{
+                    if(list.subList){
+                        allSameData.push(...list.subList);
+                        mainNumberArray.push(list.subList.length);
+                    }
                 }
             })
+            console.log(allSameData);
             var randomArray = [];
             var hasNotSameNumber = false;
             for(i=0;i<4;i++){
