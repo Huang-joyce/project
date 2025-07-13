@@ -107,7 +107,7 @@ $(function () {
         return innerHtml
     }
     /** 產生產品清單 */ 
-    function showProduct(data,mainNumber) {
+    function showProduct(data) {
         var innerHtml = '';
         var allList = [];
         var isEnglish = false;
@@ -208,9 +208,9 @@ $(function () {
             innerHtml =`<p class="pt-5">${isEnglish?'Other Products':'其他產品'}</p>
             <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-md-start" data-aos="zoom-in" data-aos-duration="1000" >`
             data.forEach((item,index)=>{
-                        var itemHref = 'productDetail.html?item=' + mainNumber + '-' + index;
+                        var itemHref = 'productDetail.html?item=' + item.mainNumber + '-' + item.number;
                         if (isEnglish) {
-                            itemHref = 'productDetail.html?language=english&item=' + mainNumber + '-' + index;
+                            itemHref = 'productDetail.html?language=english&item=' + item.mainNumber + '-' + item.number;
                         }
                         innerHtml += '<div class="col-10 col-md-6 col-lg-4 col-xl-3 mb-3">'
                             + '<div class="card">'
@@ -401,6 +401,10 @@ $(function () {
             + '</div>';
         return innerHtml;
     }
+    /** 根據最大最小值產生不同亂數 */ 
+    function getRandom(min,max){
+        return Math.floor(Math.random()*max)+min;
+    };
     function showData(data) {
         if (typeof data.header == 'object') {
             var header = showHeader(data.header)
@@ -438,8 +442,45 @@ $(function () {
             var subNumber = getParameterByName('item').split('-')[1]
             var productDetail = showProductDetail(data.product, mainNumber, subNumber)
             $('.js-productDetail').append(productDetail) ;
-            var AllSameData = data.product.list[mainNumber].subList.filter((item,index)=>index !== Number(subNumber))
-            var moreData = showProduct(AllSameData.filter((item,index)=>index<4),mainNumber)
+            var allSameData =[];
+            var mainNumberArray = [];
+            data.product.list.forEach((list)=>{
+                if(list.subList){
+                    allSameData.push(...list.subList)
+                    mainNumberArray.push(list.subList.length)
+                }
+            })
+            var randomArray = [];
+            var hasNotSameNumber = false;
+            for(i=0;i<4;i++){
+                //要排除重複數值
+                while(!hasNotSameNumber){
+                    var number = getRandom(0,allSameData.length)
+                    if(randomArray.findIndex((item)=>item===number)>=0){
+                        getRandom(0,allSameData.length)
+                    }else{
+                        randomArray.push(number);
+                        hasNotSameNumber=true;
+                    }
+                }
+                hasNotSameNumber = false
+            };
+            var randomData=[];
+            for(i=0;i<4;i++){
+                  randomData.push(allSameData.filter((obj,index)=>index ===randomArray[i])[0]);
+                  if(randomArray[i]<mainNumberArray[0]){
+                    randomData[i].mainNumber=1;
+                    randomData[i].number = randomArray[i];
+                  }else if(randomArray[i]<String(Number(mainNumberArray[0])+Number(mainNumberArray[1]))){
+                    randomData[i].mainNumber=2;
+                    randomData[i].number = String(Number(randomArray[i]) - Number(mainNumberArray[0]));
+                  }else{
+                    randomData[i].mainNumber=3;
+                    randomData[i].number = String(Number(randomArray[i]) - (Number(mainNumberArray[0])+Number(mainNumberArray[1])));
+                  }
+                  
+            }
+            var moreData = showProduct(randomData)
             $('.js-productDetail .container-lg').append(moreData) ;
         }
 
