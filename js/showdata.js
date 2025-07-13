@@ -445,24 +445,19 @@ $(function () {
             var allData =[];
             var mainNumberArray = [];
             data.product.list.forEach((list,index)=>{
-                if(index===Number(mainNumber)){        
+                if(list.subList){
+                    allData.push(...list.subList);
                     mainNumberArray.push(list.subList.length);
-                    var filterList = list.subList.filter((item,i)=>i !== Number(subNumber));
-                     allData.push(...filterList);
-                }else{
-                    if(list.subList){
-                        allData.push(...list.subList);
-                        mainNumberArray.push(list.subList.length);
-                    }
                 }
             })
+            var thisIndex = mainNumberArray.slice(0,mainNumber-1).reduce((acc,cur)=>Number(acc)+Number(cur),0) + Number(subNumber)
             var randomArray = [];
             var hasNotSameNumber = false;
             for(i=0;i<4;i++){
-                //要排除重複數值
+                //要排除重複數值以及本身
                 while(!hasNotSameNumber){
                     var number = getRandom(0,allData.length)
-                    if(randomArray.findIndex((item)=>item===number)>=0){
+                    if(randomArray.findIndex((item)=>item===number)>=0 || number===thisIndex){
                         getRandom(0,allData.length)
                     }else{
                         randomArray.push(number);
