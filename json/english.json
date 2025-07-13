@@ -177,10 +177,11 @@
                         "imgAlt": "電源組",
                         "title": "6-Outlet Metal Power Strip",
                         "description": [
-                            "Rack-Mountable",
+                            "Suitable for data center equipment and can be mounted in a rack",
                             "Made with a metal enclosure for fire resistance and prevention",
                             "Automatically shuts off during power overload; manual reset required",
-                            "UL Certified",
+                            "Cord, plug, and outlets are UL certified",
+                            "This product can be made in 15A",
                             "Made in Taiwan"
                         ],
                         "buttonText": "Product details",
@@ -213,6 +214,99 @@
                                 "text": "ebay",
                                 "href": "https://www.ebay.com/itm/365204131763"
                             }
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/A1-0802.png",
+                        "imgAlt": "基本型A1-0802",
+                        "title": "A1-0802",
+                        "description": [
+                            "Suitable for data center equipment and can be mounted in a 19’‘ rack",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "Cord, plug, and outlets are UL certified",
+                            "This product can be made in 15A, 20A, 30A",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                    
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/A4-0401-S.png",
+                        "imgAlt": "基本型A4-0401-S",
+                        "title": "A4-0401-S",
+                        "description": [
+                            "Suitable for data center equipment and can be mounted in a 19’‘ rack",
+                            "Made with a metal enclosure for fire resistance and prevention",
+                            "Automatically shuts off during power overload; manual reset required",
+                            "Cord, plug, and outlets are UL certified",
+                            "This product can be made in 15A",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                    
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/A6-0801-SS.png",
+                        "imgAlt": "基本型A6-0801-SS",
+                        "title": "A6-0801-SS",
+                        "description": [
+                            "適用機房設備並可安裝於19‘’機櫃",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "電源線、插頭、插座以及開關符合UL認證",
+                            "本產品可製作15A、20A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                    
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/C13-0802.png",
+                        "imgAlt": "基本型C13-0802",
+                        "title": "C13-0802",
+                        "description": [
+                            "適用機房設備並可安裝於19‘’機櫃",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "電源線、插頭、插座以及過載保護器等符合UL認證",
+                            "本產品可製作15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                    
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+
                         ]
                     }
                 ]
@@ -262,6 +356,226 @@
                                 "text": "ebay",
                                 "href": "https://www.ebay.com/itm/365100883916"
                             }
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/A1-0805.png",
+                        "imgAlt": "數位型電源組A1-0805",
+                        "title": "A1-0805",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/A1-0806.png",
+                        "imgAlt": "數位型電源組A1-0806",
+                        "title": "A1-0806",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/A1-0821.png",
+                        "imgAlt": "數位型電源組A1-0821",
+                        "title": "A1-0821",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LCD電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/A3-0805.png",
+                        "imgAlt": "數位型電源組A3-0805",
+                        "title": "A3-0805",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/A3J-0805.png",
+                        "imgAlt": "數位型電源組A3J-0805(PANASONIC LOCK)",
+                        "title": "A3J-0805(PANASONIC LOCK)",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/A5-1006.png",
+                        "imgAlt": "數位型電源組A5-1006",
+                        "title": "A5-1006",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/C13-0806.png",
+                        "imgAlt": "數位型電源組C13-0806",
+                        "title": "C13-0806",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/C13-1206.png",
+                        "imgAlt": "數位型電源組C13-1206",
+                        "title": "C13-1206",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/C13-1615-0790.png",
+                        "imgAlt": "數位型電源組C13-1615-0790",
+                        "title": "C13-1615-0790",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },{
+                        "imgUrl": "./images/Products/C19-0605.png",
+                        "imgAlt": "數位型電源組C19-0605",
+                        "title": "C19-0605",
+                        "description": [
+                            "適用於機房設備並且可安裝於19’‘機櫃上",
+                            "鐵殼製作，防止燃燒",
+                            "用電過載時自動斷電",
+                            "LED電錶可即時顯示安培和伏特",
+                            "電源線、插頭、插座以及過載保護器符合UL安規",
+                            "可製作 15A、20A、30A"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+
+                        ],
+                        "Remark": [
+                            "lease contact us for more specifications"
+                        ],
+                        "buyLink": [
                         ]
                     }
                 ]
@@ -374,16 +688,16 @@
                         "table": [
                             {
                                 "value": [
-                                    "PRODUCT STYLE",
                                     "AMP/VOLT",
-                                    "WIRE SIZE"
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
                                 ]
                             },
                             {
                                 "value": [
-                                    "2 POLE, 3 WIRE",
                                     "30A, 250V AC 60HZ",
-                                    "10 AWG"
+                                    "10 AWG",
+                                    "UL"
                                 ]
                             }
                         ],
@@ -395,6 +709,403 @@
                                 "text": "ebay",
                                 "href": "https://www.ebay.com/itm/365659419337?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=s67vdg7mrq-&sssrc=4429486&ssuid=s67vdg7mrq-&stype=1&var=&widget_ver=artemis&media=COPY"
                             }
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/5-20C.png",
+                        "imgAlt": "轉接頭5-20C",
+                        "title": "5-20C",
+                        "description": [
+                            "Maximum 20A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "20A, 250V AC 60HZ",
+                                    "12 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/5-20P.png",
+                        "imgAlt": "轉接頭5-20P",
+                        "title": "5-20P",
+                        "description": [
+                            "Maximum 20A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "20A, 250V AC 60HZ",
+                                    "12 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/6-20C.png",
+                        "imgAlt": "轉接頭6-20C",
+                        "title": "6-20C",
+                        "description": [
+                            "Maximum 20A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "20A, 250V AC 60HZ",
+                                    "12 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/6-20P.png",
+                        "imgAlt": "轉接頭6-20P",
+                        "title": "6-20P",
+                        "description": [
+                            "Maximum 20A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "20A, 250V AC 60HZ",
+                                    "12 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/IEC60309_32A-L630C.png",
+                        "imgAlt": "轉接頭IEC60309 32A-L630C",
+                        "title": "IEC60309 32A-L630C",
+                        "description": [
+                            "Maximum 30A, 200~250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "30A, 200~250V AC 60HZ",
+                                    "10 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/L5-20C.png",
+                        "imgAlt": "轉接頭L5-20C",
+                        "title": "L5-20C",
+                        "description": [
+                            "Maximum 20A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "20A, 250V AC 60HZ",
+                                    "12 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/L5-20P.png",
+                        "imgAlt": "轉接頭L5-20P",
+                        "title": "L5-20P",
+                        "description": [
+                            "Maximum 20A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "20A, 250V AC 60HZ",
+                                    "12 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/L5-30C.png",
+                        "imgAlt": "轉接頭L5-30C",
+                        "title": "L5-30C",
+                        "description": [
+                            "Maximum 30A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "30A, 250V AC 60HZ",
+                                    "10 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/L5-30P.png",
+                        "imgAlt": "轉接頭L5-30P",
+                        "title": "L5-30P",
+                        "description": [
+                            "Maximum 30A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "30A, 250V AC 60HZ",
+                                    "10 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/L6-20C.png",
+                        "imgAlt": "轉接頭L6-20C",
+                        "title": "L6-20C",
+                        "description": [
+                            "Maximum 20A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "20A, 250V AC 60HZ",
+                                    "12 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/L6-20P.png",
+                        "imgAlt": "轉接頭L6-20P",
+                        "title": "L6-20P",
+                        "description": [
+                            "Maximum 20A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "20A, 250V AC 60HZ",
+                                    "12 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
+                        ]
+                    },
+                    {
+                        "imgUrl": "./images/Products/L6-30C.png",
+                        "imgAlt": "轉接頭L6-30C",
+                        "title": "L6-30C",
+                        "description": [
+                            "Maximum 30A, 250V",
+                            "UL Certified",
+                            "Made in Taiwan"
+                        ],
+                        "buttonText": "Product details",
+                        "specifications": "Specifications:",
+                        "table": [
+                            {
+                                "value": [
+                                    "AMP/VOLT",
+                                    "WIRE SIZE",
+                                    "CERTIFICATION"
+                                ]
+                            },
+                            {
+                                "value": [
+                                    "30A, 250V AC 60HZ",
+                                    "10 AWG",
+                                    "UL"
+                                ]
+                            }
+                        ],
+                        "Remark": [
+                            "Please contact us for more specifications"
+                        ],
+                        "buyLink": [
                         ]
                     }
                 ]
