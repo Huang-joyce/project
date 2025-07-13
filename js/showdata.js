@@ -442,29 +442,28 @@ $(function () {
             var subNumber = getParameterByName('item').split('-')[1]
             var productDetail = showProductDetail(data.product, mainNumber, subNumber)
             $('.js-productDetail').append(productDetail) ;
-            var allSameData =[];
+            var allData =[];
             var mainNumberArray = [];
             data.product.list.forEach((list,index)=>{
                 if(index===Number(mainNumber)){        
                     mainNumberArray.push(list.subList.length);
                     var filterList = list.subList.filter((item,i)=>i !== Number(subNumber));
-                     allSameData.push(...filterList);
+                     allData.push(...filterList);
                 }else{
                     if(list.subList){
-                        allSameData.push(...list.subList);
+                        allData.push(...list.subList);
                         mainNumberArray.push(list.subList.length);
                     }
                 }
             })
-            console.log(allSameData);
             var randomArray = [];
             var hasNotSameNumber = false;
             for(i=0;i<4;i++){
                 //要排除重複數值
                 while(!hasNotSameNumber){
-                    var number = getRandom(0,allSameData.length)
+                    var number = getRandom(0,allData.length)
                     if(randomArray.findIndex((item)=>item===number)>=0){
-                        getRandom(0,allSameData.length)
+                        getRandom(0,allData.length)
                     }else{
                         randomArray.push(number);
                         hasNotSameNumber=true;
@@ -474,7 +473,7 @@ $(function () {
             };
             var randomData=[];
             for(i=0;i<4;i++){
-                  randomData.push(allSameData.filter((obj,index)=>index ===randomArray[i])[0]);
+                  randomData.push(allData.filter((obj,index)=>index ===randomArray[i])[0]);
                   if(randomArray[i]<mainNumberArray[0]){
                     randomData[i].mainNumber=1;
                     randomData[i].number = randomArray[i];
@@ -520,7 +519,6 @@ $(function () {
         })
             .then((res) => { return res.json() })
             .then((data) => {
-                console.log(data);
                 showData(data);
                 changeUrl();
             });
