@@ -116,6 +116,7 @@ body{
     padding: 70px 0;
     overflow: hidden;
 }
+
 .home-certification .card{
     min-height: 320px;
     position: relative;
@@ -198,11 +199,13 @@ body{
     line-height: 1.5;
 }
 .card-img-top{
+    padding: 1px;
     max-height: 225px;
 }
 .card-img{
     min-height: 225px;
     text-align: center;
+
 }
 #InformationContent .card{
     box-shadow: 3px 3px 10px 3px #00000017;
@@ -212,7 +215,8 @@ body{
     animation:scale 0.5s ease-in-out alternate;
     transform:scale(1.05) ;
 }
-#InformationContent .card .card-body{
+#InformationContent .card .card-body,
+.product-environment .card .card-body{
     border-top: 1px solid rgba(198, 195, 195, 0.398);
     min-height: 100px;
 }

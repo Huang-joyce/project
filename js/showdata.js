@@ -1,4 +1,5 @@
 $(function () {
+    /** 產生天版 */ 
     function showHeader(data) {
         var innerHtml = ''
         innerHtml += '<nav class="navbar navbar-light navbar-expand-lg header py-3">'
@@ -33,7 +34,7 @@ $(function () {
         });
         return innerHtml
     }
-
+    /** 產生首頁 */ 
     function showHome(data) {
         var innerHtml = '';
         if (data.slogan) {
@@ -105,8 +106,8 @@ $(function () {
         innerHtml += '</div>';
         return innerHtml
     }
-
-    function showProduct(data) {
+    /** 產生產品清單 */ 
+    function showProduct(data,mainNumber) {
         var innerHtml = '';
         var allList = [];
         var isEnglish = false;
@@ -137,6 +138,7 @@ $(function () {
                 + '<div class="tab-content" id="InformationContent">';
             tabList.forEach((e, i) => {
                 if (e.subList) {
+                     /** 產生各類別產品 */ 
                     var subList = e.subList;
                     innerHtml += '<div class="tab-pane" id="product' + i + '" role="tabpanel" aria-labelledby="pills-home-tab">'
                         + '<div>'
@@ -165,6 +167,7 @@ $(function () {
                         + '</div>'
                         + '</div>';
                 } else {
+                     /** 產生全部產品 */ 
                     innerHtml += '<div class="tab-pane show active" id="product0" role="tabpanel" aria-labelledby="pills-home-tab">'
                         + '<div>'
                         + '<div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-md-start" data-aos="zoom-in" data-aos-duration="1000">';
@@ -200,10 +203,36 @@ $(function () {
                 +'</div>'
                 + '</div>';
         }
+        else{
+            // 產生產品細節頁下方更多商品
+            innerHtml =`<p class="pt-5">${isEnglish?'Other Products':'其他產品'}</p>
+            <div class="row row-cols-1 row-cols-sm-3 row-cols-lg-4 justify-content-center justify-content-md-start" data-aos="zoom-in" data-aos-duration="1000" >`
+            data.forEach((item,index)=>{
+                        var itemHref = 'productDetail.html?item=' + mainNumber + '-' + index;
+                        if (isEnglish) {
+                            itemHref = 'productDetail.html?language=english&item=' + mainNumber + '-' + index;
+                        }
+                        innerHtml += '<div class="col-10 col-md-6 col-lg-4 col-xl-3 mb-3">'
+                            + '<div class="card">'
+                            + '<a href=' + itemHref + ' class="text-decoration-none text-secondary">'
+                            + '<div class="card-img d-flex align-items-center">'
+                            + '<img src=' + item.imgUrl + ' class="card-img-top" alt="' + item.imgAlt + '">'
+                            + '</div>'
+                            + '<div class="card-body">'
+                            + '<h5 class="card-title fw-bold">' + item.title + '</h5>'
+                            + '<p class="card-text"></p>'
+                            + '<p class="mb-0 text-decoration-underline">' + item.buttonText + '</p>'
+                            + '</div>'
+                            + '</a>'
+                            + '</div>'
+                            + '</div>'
+            })
+            innerHtml += '</div>'
+        }
         return innerHtml;
     }
-
-    function ProductDetail(data, mainNumber, subNumber) {
+    /** 產生產品細節頁 */ 
+    function showProductDetail(data, mainNumber, subNumber) {
         var innerHtml = '';
         var detail = data.list[mainNumber].subList[subNumber];
         innerHtml += '<div class="positoin-relative product-environment mt-5">'
@@ -221,14 +250,14 @@ $(function () {
             + '<div class="col-12 col-md-7">'
             + '<div>'
             + '<p class="fw-bold font-24px">' + detail.title + '</p>'
-            + '<div class="mb-2">';
+            + '<ul class="mb-2">';
         if (detail.description) {
             var description = detail.description;
             description.forEach(e => {
-                innerHtml += '<span class="d-block">' + e + '</span>'
+                innerHtml += '<li class="mb-2">' + e + '</li>'
             })
         }
-        innerHtml += '</div>';
+        innerHtml += '</ul>';
         + '<p>' + detail.specifications + '</p>'
         if (detail.table) {
             var table = detail.table;
@@ -277,7 +306,7 @@ $(function () {
             + '</div>';
         return innerHtml;
     }
-
+    /** 產生聯絡我們 */ 
     function showContact(data) {
         var innerHtml = '';
         innerHtml += '<div class="positoin-relative product-environment my-5">'
@@ -317,7 +346,7 @@ $(function () {
             + '</div>';
         return innerHtml;
     }
-
+    /** 產生關於我們頁 */ 
     function showAbout(data) {
         var innerHtml = '';
         innerHtml += '<div class="positoin-relative product-environment mt-5">'
@@ -356,7 +385,7 @@ $(function () {
         return innerHtml;
 
     }
-
+    /** 產生頁尾 */ 
     function showFooter(data) {
         var innerHtml = '';
         innerHtml += '  <div class="footer bg-dark text-white" id="contact">'
@@ -407,8 +436,11 @@ $(function () {
         if (getParameterByName('item')) {
             var mainNumber = getParameterByName('item').split('-')[0]
             var subNumber = getParameterByName('item').split('-')[1]
-            var productDetail = ProductDetail(data.product, mainNumber, subNumber)
-            $('.js-productDetail').append(productDetail);
+            var productDetail = showProductDetail(data.product, mainNumber, subNumber)
+            $('.js-productDetail').append(productDetail) ;
+            var AllSameData = data.product.list[mainNumber].subList.filter((item,index)=>index !== Number(subNumber))
+            var moreData = showProduct(AllSameData.filter((item,index)=>index<4),mainNumber)
+            $('.js-productDetail .container-lg').append(moreData) ;
         }
 
         $('.closeBtn').on('click', function () {
@@ -433,7 +465,7 @@ $(function () {
             $('#InformationContent .tab-pane.active .row').addClass('aos-animate');
         }, 300)
     }
-
+    /** 取得本地存放資料 */ 
     function getData(language) {
         fetch("json/" + language + ".json", {
             method: "GET",
@@ -445,7 +477,7 @@ $(function () {
                 changeUrl();
             });
     }
-
+    /** 取得網址參數值 */ 
     function getParameterByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]]/g, "\\$&");
@@ -455,13 +487,13 @@ $(function () {
         if (!results[2]) return '';
         return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
-
+    /** 根據不同語言取不同資料 */ 
     if (getParameterByName('language') === 'english')
         getData('english');
     else {
         getData('chinese');
     }
-
+     /** 根據不同hash觸發不同頁籤 */ 
     function locationHashChanged() {
         if (window.location.hash != '') {
             switch (window.location.hash) {
@@ -485,7 +517,7 @@ $(function () {
             }
         }
     }
-
+    /** 更換所有連結 */ 
     function changeUrl() {
         $("li a").each(function () {
             if (getParameterByName('item') !== null) {

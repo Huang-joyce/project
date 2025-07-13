@@ -174,7 +174,7 @@
                 "subList": [
                     {
                         "imgUrl": "./images/Products/PowerstripSwitch2.jpg",
-                        "imgAlt": "電源組",
+                        "imgAlt": "Basic Power Distribution Unit",
                         "title": "6-Outlet Metal Power Strip",
                         "description": [
                             "Suitable for data center equipment and can be mounted in a rack",
@@ -218,7 +218,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/A1-0802.png",
-                        "imgAlt": "基本型A1-0802",
+                        "imgAlt": "Basic Power A1-0802",
                         "title": "A1-0802",
                         "description": [
                             "Suitable for data center equipment and can be mounted in a 19’‘ rack",
@@ -241,7 +241,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/A4-0401-S.png",
-                        "imgAlt": "基本型A4-0401-S",
+                        "imgAlt": "Basic Power A4-0401-S",
                         "title": "A4-0401-S",
                         "description": [
                             "Suitable for data center equipment and can be mounted in a 19’‘ rack",
@@ -265,7 +265,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/A6-0801-SS.png",
-                        "imgAlt": "基本型A6-0801-SS",
+                        "imgAlt": "Basic Power A6-0801-SS",
                         "title": "A6-0801-SS",
                         "description": [
                             "適用機房設備並可安裝於19‘’機櫃",
@@ -288,7 +288,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/C13-0802.png",
-                        "imgAlt": "基本型C13-0802",
+                        "imgAlt": "Basic Power C13-0802",
                         "title": "C13-0802",
                         "description": [
                             "適用機房設備並可安裝於19‘’機櫃",
@@ -317,7 +317,7 @@
                 "subList": [
                     {
                         "imgUrl": "./images/Products/PowerstripDigital.jpg",
-                        "imgAlt": "電源組",
+                        "imgAlt": "Digital Power Distribution",
                         "title": "8-Outlet Metal Heavy Duty PDU with Display",
                         "description": [
                             "Rack-Mountable",
@@ -359,7 +359,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/A1-0805.png",
-                        "imgAlt": "數位型電源組A1-0805",
+                        "imgAlt": "Digital Power Distribution A1-0805",
                         "title": "A1-0805",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -381,7 +381,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/A1-0806.png",
-                        "imgAlt": "數位型電源組A1-0806",
+                        "imgAlt": "Digital Power Distribution A1-0806",
                         "title": "A1-0806",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -403,7 +403,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/A1-0821.png",
-                        "imgAlt": "數位型電源組A1-0821",
+                        "imgAlt": "Digital Power Distribution A1-0821",
                         "title": "A1-0821",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -425,7 +425,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/A3-0805.png",
-                        "imgAlt": "數位型電源組A3-0805",
+                        "imgAlt": "Digital Power Distribution A3-0805",
                         "title": "A3-0805",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -447,7 +447,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/A3J-0805.png",
-                        "imgAlt": "數位型電源組A3J-0805(PANASONIC LOCK)",
+                        "imgAlt": "Digital Power Distribution A3J-0805(PANASONIC LOCK)",
                         "title": "A3J-0805(PANASONIC LOCK)",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -469,7 +469,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/A5-1006.png",
-                        "imgAlt": "數位型電源組A5-1006",
+                        "imgAlt": "Digital Power Distribution A5-1006",
                         "title": "A5-1006",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -491,7 +491,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/C13-0806.png",
-                        "imgAlt": "數位型電源組C13-0806",
+                        "imgAlt": "Digital Power Distribution C13-0806",
                         "title": "C13-0806",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -513,7 +513,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/C13-1206.png",
-                        "imgAlt": "數位型電源組C13-1206",
+                        "imgAlt": "Digital Power Distribution C13-1206",
                         "title": "C13-1206",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -535,7 +535,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/C13-1615-0790.png",
-                        "imgAlt": "數位型電源組C13-1615-0790",
+                        "imgAlt": "Digital Power Distribution C13-1615-0790",
                         "title": "C13-1615-0790",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -557,7 +557,7 @@
                         ]
                     },{
                         "imgUrl": "./images/Products/C19-0605.png",
-                        "imgAlt": "數位型電源組C19-0605",
+                        "imgAlt": "Digital Power Distribution C19-0605",
                         "title": "C19-0605",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -586,7 +586,7 @@
                 "subList": [
                     {
                         "imgUrl": "./images/Products/515P.jpg",
-                        "imgAlt": "電源組",
+                        "imgAlt": "Plug Adapter/Extension Cord",
                         "title": "515P-C13",
                         "description": [
                             "Maximum 15A, 125V",
@@ -625,7 +625,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/515_6FT.jpg",
-                        "imgAlt": "電源組",
+                        "imgAlt": "Plug Adapter/Extension Cord 515P-515R",
                         "title": "515P-515R",
                         "description": [
                             "Maximum 15A, 125V",
@@ -676,7 +676,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/PDU_Plug_2.jpg",
-                        "imgAlt": "電源組",
+                        "imgAlt": "Plug Adapter/Extension Cord",
                         "title": "NEMA L6-30P",
                         "description": [
                             "Maximum 30A, 250V",
@@ -713,7 +713,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/5-20C.png",
-                        "imgAlt": "轉接頭5-20C",
+                        "imgAlt": "Plug Adapter/Extension Cord 5-20C",
                         "title": "5-20C",
                         "description": [
                             "Maximum 20A, 250V",
@@ -746,7 +746,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/5-20P.png",
-                        "imgAlt": "轉接頭5-20P",
+                        "imgAlt": "Plug Adapter/Extension Cord 5-20P",
                         "title": "5-20P",
                         "description": [
                             "Maximum 20A, 250V",
@@ -779,7 +779,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/6-20C.png",
-                        "imgAlt": "轉接頭6-20C",
+                        "imgAlt": "Plug Adapter/Extension Cord 6-20C",
                         "title": "6-20C",
                         "description": [
                             "Maximum 20A, 250V",
@@ -812,7 +812,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/6-20P.png",
-                        "imgAlt": "轉接頭6-20P",
+                        "imgAlt": "Plug Adapter/Extension Cord 6-20P",
                         "title": "6-20P",
                         "description": [
                             "Maximum 20A, 250V",
@@ -845,7 +845,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/IEC60309_32A-L630C.png",
-                        "imgAlt": "轉接頭IEC60309 32A-L630C",
+                        "imgAlt": "Plug Adapter/Extension Cord IEC60309 32A-L630C",
                         "title": "IEC60309 32A-L630C",
                         "description": [
                             "Maximum 30A, 200~250V",
@@ -879,7 +879,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/L5-20C.png",
-                        "imgAlt": "轉接頭L5-20C",
+                        "imgAlt": "Plug Adapter/Extension Cord L5-20C",
                         "title": "L5-20C",
                         "description": [
                             "Maximum 20A, 250V",
@@ -912,7 +912,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/L5-20P.png",
-                        "imgAlt": "轉接頭L5-20P",
+                        "imgAlt": "Plug Adapter/Extension Cord L5-20P",
                         "title": "L5-20P",
                         "description": [
                             "Maximum 20A, 250V",
@@ -945,7 +945,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/L5-30C.png",
-                        "imgAlt": "轉接頭L5-30C",
+                        "imgAlt": "Plug Adapter/Extension Cord L5-30C",
                         "title": "L5-30C",
                         "description": [
                             "Maximum 30A, 250V",
@@ -978,7 +978,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/L5-30P.png",
-                        "imgAlt": "轉接頭L5-30P",
+                        "imgAlt": "Plug Adapter/Extension Cord L5-30P",
                         "title": "L5-30P",
                         "description": [
                             "Maximum 30A, 250V",
@@ -1011,7 +1011,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/L6-20C.png",
-                        "imgAlt": "轉接頭L6-20C",
+                        "imgAlt": "Plug Adapter/Extension Cord L6-20C",
                         "title": "L6-20C",
                         "description": [
                             "Maximum 20A, 250V",
@@ -1044,7 +1044,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/L6-20P.png",
-                        "imgAlt": "轉接頭L6-20P",
+                        "imgAlt": "Plug Adapter/Extension Cord L6-20P",
                         "title": "L6-20P",
                         "description": [
                             "Maximum 20A, 250V",
@@ -1077,7 +1077,7 @@
                     },
                     {
                         "imgUrl": "./images/Products/L6-30C.png",
-                        "imgAlt": "轉接頭L6-30C",
+                        "imgAlt": "Plug Adapter/Extension Cord L6-30C",
                         "title": "L6-30C",
                         "description": [
                             "Maximum 30A, 250V",
@@ -1110,7 +1110,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "relateProduct":"RelateData"
     },
     "footer": {
         "title": "Contact Us",
