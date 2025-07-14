@@ -175,6 +175,7 @@
                     {
                         "imgUrl": "./images/Products/PowerstripSwitch2.jpg",
                         "imgAlt": "基本型6-Outlet Metal Power Strip",
+                        "imgText":"",
                         "title": "6-Outlet Metal Power Strip",
                         "description": [
                             "適用機房設備並可安裝於機櫃",
@@ -206,7 +207,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -219,6 +220,7 @@
                     {
                         "imgUrl": "./images/Products/A1-0802.png",
                         "imgAlt": "基本型A1-0802",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A1-0802",
                         "description": [
                             "適用機房設備並可安裝於19‘’機櫃",
@@ -233,7 +235,7 @@
                         "table": [
                     
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -242,6 +244,7 @@
                     {
                         "imgUrl": "./images/Products/A4-0401-S.png",
                         "imgAlt": "基本型A4-0401-S",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A4-0401-S",
                         "description": [
                             "適用機房設備並可安裝於19‘’機櫃",
@@ -256,7 +259,7 @@
                         "table": [
                     
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -266,6 +269,7 @@
                     {
                         "imgUrl": "./images/Products/A6-0801-SS.png",
                         "imgAlt": "基本型A6-0801-SS",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A6-0801-SS",
                         "description": [
                             "適用機房設備並可安裝於19‘’機櫃",
@@ -280,7 +284,7 @@
                         "table": [
                     
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -290,6 +294,7 @@
                     {
                         "imgUrl": "./images/Products/C13-0802.png",
                         "imgAlt": "基本型C13-0802",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "C13-0802",
                         "description": [
                             "適用機房設備並可安裝於19‘’機櫃",
@@ -304,7 +309,7 @@
                         "table": [
                     
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -320,6 +325,7 @@
                     {
                         "imgUrl": "./images/Products/PowerstripDigital.jpg",
                         "imgAlt": "電源組",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "8-Outlet Metal Heavy Duty PDU with Display",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -351,7 +357,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -363,6 +369,7 @@
                     },{
                         "imgUrl": "./images/Products/A1-0805.png",
                         "imgAlt": "數位型電源組A1-0805",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A1-0805",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -378,7 +385,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -386,6 +393,7 @@
                     },{
                         "imgUrl": "./images/Products/A1-0806.png",
                         "imgAlt": "數位型電源組A1-0806",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A1-0806",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -401,7 +409,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -409,6 +417,7 @@
                     },{
                         "imgUrl": "./images/Products/A1-0821.png",
                         "imgAlt": "數位型電源組A1-0821",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A1-0821",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -424,7 +433,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -432,6 +441,7 @@
                     },{
                         "imgUrl": "./images/Products/A3-0805.png",
                         "imgAlt": "數位型電源組A3-0805",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A3-0805",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -447,7 +457,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -455,6 +465,7 @@
                     },{
                         "imgUrl": "./images/Products/A3J-0805.png",
                         "imgAlt": "數位型電源組A3J-0805(PANASONIC LOCK)",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A3J-0805(PANASONIC LOCK)",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -471,7 +482,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -479,6 +490,7 @@
                     },{
                         "imgUrl": "./images/Products/A5-1006.png",
                         "imgAlt": "數位型電源組A5-1006",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "A5-1006",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -494,7 +506,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -502,6 +514,7 @@
                     },{
                         "imgUrl": "./images/Products/C13-0806.png",
                         "imgAlt": "數位型電源組C13-0806",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "C13-0806",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -517,7 +530,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -525,6 +538,7 @@
                     },{
                         "imgUrl": "./images/Products/C13-1206.png",
                         "imgAlt": "數位型電源組C13-1206",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "C13-1206",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -540,7 +554,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -548,6 +562,7 @@
                     },{
                         "imgUrl": "./images/Products/C13-1615-0790.png",
                         "imgAlt": "數位型電源組C13-1615-0790",
+                        "imgText":"",
                         "title": "C13-1615-0790",
                         "description": [
                             "適用於機房設備並且可安裝於機櫃上",
@@ -563,7 +578,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -571,6 +586,7 @@
                     },{
                         "imgUrl": "./images/Products/C19-0605.png",
                         "imgAlt": "數位型電源組C19-0605",
+                        "imgText":"尺寸:465x44.5x60(mm)",
                         "title": "C19-0605",
                         "description": [
                             "適用於機房設備並且可安裝於19’‘機櫃上",
@@ -586,7 +602,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -601,6 +617,7 @@
                     {
                         "imgUrl": "./images/Products/515P.jpg",
                         "imgAlt": "轉接線/轉接頭515P-C13",
+                        "imgText":"",
                         "title": "515P-C13",
                         "description": [
                             "最大15A, 125V",
@@ -627,7 +644,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -640,6 +657,7 @@
                     {
                         "imgUrl": "./images/Products/515_6FT.jpg",
                         "imgAlt": "轉接線/轉接頭515P-515R",
+                        "imgText":"",
                         "title": "515P-515R",
                         "description": [
                             "最大15A, 125V",
@@ -674,7 +692,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -691,6 +709,7 @@
                     {
                         "imgUrl": "./images/Products/PDU_Plug_2.jpg",
                         "imgAlt": "轉接線/轉接頭L6-30P",
+                        "imgText":"",
                         "title": "NEMA L6-30P",
                         "description": [
                             "最大30A, 250V",
@@ -715,7 +734,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -728,6 +747,7 @@
                     {
                         "imgUrl": "./images/Products/5-20C.png",
                         "imgAlt": "轉接頭5-20C",
+                        "imgText":"",
                         "title": "5-20C",
                         "description": [
                             "最大20A, 250V",
@@ -752,7 +772,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -761,6 +781,7 @@
                     {
                         "imgUrl": "./images/Products/5-20P.png",
                         "imgAlt": "轉接頭5-20P",
+                        "imgText":"",
                         "title": "5-20P",
                         "description": [
                             "最大20A, 250V",
@@ -785,7 +806,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -794,6 +815,7 @@
                     {
                         "imgUrl": "./images/Products/6-20C.png",
                         "imgAlt": "轉接頭6-20C",
+                        "imgText":"",
                         "title": "6-20C",
                         "description": [
                             "最大20A, 250V",
@@ -818,7 +840,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -827,6 +849,7 @@
                     {
                         "imgUrl": "./images/Products/6-20P.png",
                         "imgAlt": "轉接頭6-20P",
+                        "imgText":"",
                         "title": "6-20P",
                         "description": [
                             "最大20A, 250V",
@@ -851,7 +874,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -860,6 +883,7 @@
                     {
                         "imgUrl": "./images/Products/IEC60309_32A-L630C.png",
                         "imgAlt": "轉接頭IEC60309 32A-L630C",
+                        "imgText":"",
                         "title": "IEC60309 32A-L630C",
                         "description": [
                             "最大30A, 200~250V",
@@ -884,7 +908,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -894,6 +918,7 @@
                     {
                         "imgUrl": "./images/Products/L5-20C.png",
                         "imgAlt": "轉接頭L5-20C",
+                        "imgText":"",
                         "title": "L5-20C",
                         "description": [
                             "最大20A, 250V",
@@ -918,7 +943,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -927,6 +952,7 @@
                     {
                         "imgUrl": "./images/Products/L5-20P.png",
                         "imgAlt": "轉接頭L5-20P",
+                        "imgText":"",
                         "title": "L5-20P",
                         "description": [
                             "最大20A, 250V",
@@ -951,7 +977,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -960,6 +986,7 @@
                     {
                         "imgUrl": "./images/Products/L5-30C.png",
                         "imgAlt": "轉接頭L5-30C",
+                        "imgText":"",
                         "title": "L5-30C",
                         "description": [
                             "最大30A, 250V",
@@ -984,7 +1011,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -993,6 +1020,7 @@
                     {
                         "imgUrl": "./images/Products/L5-30P.png",
                         "imgAlt": "轉接頭L5-30P",
+                        "imgText":"",
                         "title": "L5-30P",
                         "description": [
                             "最大30A, 250V",
@@ -1017,7 +1045,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -1026,6 +1054,7 @@
                     {
                         "imgUrl": "./images/Products/L6-20C.png",
                         "imgAlt": "轉接頭L6-20C",
+                        "imgText":"",
                         "title": "L6-20C",
                         "description": [
                             "最大20A, 250V",
@@ -1050,7 +1079,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -1059,6 +1088,7 @@
                     {
                         "imgUrl": "./images/Products/L6-20P.png",
                         "imgAlt": "轉接頭L6-20P",
+                        "imgText":"",
                         "title": "L6-20P",
                         "description": [
                             "最大20A, 250V",
@@ -1083,7 +1113,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [
@@ -1092,6 +1122,7 @@
                     {
                         "imgUrl": "./images/Products/L6-30C.png",
                         "imgAlt": "轉接頭L6-30C",
+                        "imgText":"",
                         "title": "L6-30C",
                         "description": [
                             "最大30A, 250V",
@@ -1116,7 +1147,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "更多規格請聯繫我們。"
                         ],
                         "buyLink": [

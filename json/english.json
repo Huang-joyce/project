@@ -175,6 +175,7 @@
                     {
                         "imgUrl": "./images/Products/PowerstripSwitch2.jpg",
                         "imgAlt": "Basic Power Distribution Unit",
+                        "imgText":"",
                         "title": "6-Outlet Metal Power Strip",
                         "description": [
                             "Rack-Mountable",
@@ -206,7 +207,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -219,6 +220,7 @@
                     {
                         "imgUrl": "./images/Products/A1-0802.png",
                         "imgAlt": "Basic Power A1-0802",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A1-0802",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -233,7 +235,7 @@
                         "table": [
                     
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -242,6 +244,7 @@
                     {
                         "imgUrl": "./images/Products/A4-0401-S.png",
                         "imgAlt": "Basic Power A4-0401-S",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A4-0401-S",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -256,7 +259,7 @@
                         "table": [
                     
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -266,6 +269,7 @@
                     {
                         "imgUrl": "./images/Products/A6-0801-SS.png",
                         "imgAlt": "Basic Power A6-0801-SS",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A6-0801-SS",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -280,7 +284,7 @@
                         "table": [
                     
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -290,6 +294,7 @@
                     {
                         "imgUrl": "./images/Products/C13-0802.png",
                         "imgAlt": "Basic Power C13-0802",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "C13-0802",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -304,7 +309,7 @@
                         "table": [
                     
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -320,6 +325,7 @@
                     {
                         "imgUrl": "./images/Products/PowerstripDigital.jpg",
                         "imgAlt": "Digital Power Distribution",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "8-Outlet Metal Heavy Duty PDU with Display",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -351,7 +357,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -363,6 +369,7 @@
                     },{
                         "imgUrl": "./images/Products/A1-0805.png",
                         "imgAlt": "Digital Power Distribution A1-0805",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A1-0805",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -378,7 +385,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -386,6 +393,7 @@
                     },{
                         "imgUrl": "./images/Products/A1-0806.png",
                         "imgAlt": "Digital Power Distribution A1-0806",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A1-0806",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -401,7 +409,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -409,6 +417,7 @@
                     },{
                         "imgUrl": "./images/Products/A1-0821.png",
                         "imgAlt": "Digital Power Distribution A1-0821",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A1-0821",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -424,7 +433,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -432,6 +441,7 @@
                     },{
                         "imgUrl": "./images/Products/A3-0805.png",
                         "imgAlt": "Digital Power Distribution A3-0805",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A3-0805",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -447,7 +457,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -455,6 +465,7 @@
                     },{
                         "imgUrl": "./images/Products/A3J-0805.png",
                         "imgAlt": "Digital Power Distribution A3J-0805(PANASONIC LOCK)",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A3J-0805(PANASONIC LOCK)",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -470,7 +481,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -478,6 +489,7 @@
                     },{
                         "imgUrl": "./images/Products/A5-1006.png",
                         "imgAlt": "Digital Power Distribution A5-1006",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "A5-1006",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -493,7 +505,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -501,6 +513,7 @@
                     },{
                         "imgUrl": "./images/Products/C13-0806.png",
                         "imgAlt": "Digital Power Distribution C13-0806",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "C13-0806",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -516,7 +529,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -524,6 +537,7 @@
                     },{
                         "imgUrl": "./images/Products/C13-1206.png",
                         "imgAlt": "Digital Power Distribution C13-1206",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "C13-1206",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -539,7 +553,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -547,6 +561,7 @@
                     },{
                         "imgUrl": "./images/Products/C13-1615-0790.png",
                         "imgAlt": "Digital Power Distribution C13-1615-0790",
+                        "imgText":"",
                         "title": "C13-1615-0790",
                         "description": [
                             "Rack-Mountable",
@@ -562,7 +577,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -570,6 +585,7 @@
                     },{
                         "imgUrl": "./images/Products/C19-0605.png",
                         "imgAlt": "Digital Power Distribution C19-0605",
+                        "imgText":"Dimensions: 465x44.5x60(mm)",
                         "title": "C19-0605",
                         "description": [
                             "19’‘Rack-Mountable",
@@ -585,7 +601,7 @@
                         "table": [
 
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -626,7 +642,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -673,7 +689,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -714,7 +730,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -751,7 +767,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -784,7 +800,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -817,7 +833,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -850,7 +866,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -883,7 +899,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -917,7 +933,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -950,7 +966,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -983,7 +999,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -1016,7 +1032,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -1049,7 +1065,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -1082,7 +1098,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
@@ -1115,7 +1131,7 @@
                                 ]
                             }
                         ],
-                        "Remark": [
+                        "remark": [
                             "Please contact us for more specifications"
                         ],
                         "buyLink": [
