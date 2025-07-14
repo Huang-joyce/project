@@ -616,6 +616,7 @@
                     {
                         "imgUrl": "./images/Products/515P.jpg",
                         "imgAlt": "Plug Adapter/Extension Cord",
+                        "imgText":"",
                         "title": "515P-C13",
                         "description": [
                             "Maximum 15A, 125V",
@@ -655,6 +656,7 @@
                     {
                         "imgUrl": "./images/Products/515_6FT.jpg",
                         "imgAlt": "Plug Adapter/Extension Cord 515P-515R",
+                        "imgText":"",
                         "title": "515P-515R",
                         "description": [
                             "Maximum 15A, 125V",
@@ -706,6 +708,7 @@
                     {
                         "imgUrl": "./images/Products/PDU_Plug_2.jpg",
                         "imgAlt": "Plug Adapter/Extension Cord",
+                        "imgText":"",
                         "title": "NEMA L6-30P",
                         "description": [
                             "Maximum 30A, 250V",
@@ -743,6 +746,7 @@
                     {
                         "imgUrl": "./images/Products/5-20C.png",
                         "imgAlt": "Plug Adapter/Extension Cord 5-20C",
+                        "imgText":"",
                         "title": "5-20C",
                         "description": [
                             "Maximum 20A, 250V",
@@ -776,6 +780,7 @@
                     {
                         "imgUrl": "./images/Products/5-20P.png",
                         "imgAlt": "Plug Adapter/Extension Cord 5-20P",
+                        "imgText":"",
                         "title": "5-20P",
                         "description": [
                             "Maximum 20A, 250V",
@@ -809,6 +814,7 @@
                     {
                         "imgUrl": "./images/Products/6-20C.png",
                         "imgAlt": "Plug Adapter/Extension Cord 6-20C",
+                        "imgText":"",
                         "title": "6-20C",
                         "description": [
                             "Maximum 20A, 250V",
@@ -842,6 +848,7 @@
                     {
                         "imgUrl": "./images/Products/6-20P.png",
                         "imgAlt": "Plug Adapter/Extension Cord 6-20P",
+                        "imgText":"",
                         "title": "6-20P",
                         "description": [
                             "Maximum 20A, 250V",
@@ -875,6 +882,7 @@
                     {
                         "imgUrl": "./images/Products/IEC60309_32A-L630C.png",
                         "imgAlt": "Plug Adapter/Extension Cord IEC60309 32A-L630C",
+                        "imgText":"",
                         "title": "IEC60309 32A-L630C",
                         "description": [
                             "Maximum 30A, 200~250V",
@@ -909,6 +917,7 @@
                     {
                         "imgUrl": "./images/Products/L5-20C.png",
                         "imgAlt": "Plug Adapter/Extension Cord L5-20C",
+                        "imgText":"",
                         "title": "L5-20C",
                         "description": [
                             "Maximum 20A, 250V",
@@ -942,6 +951,7 @@
                     {
                         "imgUrl": "./images/Products/L5-20P.png",
                         "imgAlt": "Plug Adapter/Extension Cord L5-20P",
+                        "imgText":"",
                         "title": "L5-20P",
                         "description": [
                             "Maximum 20A, 250V",
@@ -975,6 +985,7 @@
                     {
                         "imgUrl": "./images/Products/L5-30C.png",
                         "imgAlt": "Plug Adapter/Extension Cord L5-30C",
+                        "imgText":"",
                         "title": "L5-30C",
                         "description": [
                             "Maximum 30A, 250V",
@@ -1008,6 +1019,7 @@
                     {
                         "imgUrl": "./images/Products/L5-30P.png",
                         "imgAlt": "Plug Adapter/Extension Cord L5-30P",
+                        "imgText":"",
                         "title": "L5-30P",
                         "description": [
                             "Maximum 30A, 250V",
@@ -1041,6 +1053,7 @@
                     {
                         "imgUrl": "./images/Products/L6-20C.png",
                         "imgAlt": "Plug Adapter/Extension Cord L6-20C",
+                        "imgText":"",
                         "title": "L6-20C",
                         "description": [
                             "Maximum 20A, 250V",
@@ -1074,6 +1087,7 @@
                     {
                         "imgUrl": "./images/Products/L6-20P.png",
                         "imgAlt": "Plug Adapter/Extension Cord L6-20P",
+                        "imgText":"",
                         "title": "L6-20P",
                         "description": [
                             "Maximum 20A, 250V",
@@ -1107,6 +1121,7 @@
                     {
                         "imgUrl": "./images/Products/L6-30C.png",
                         "imgAlt": "Plug Adapter/Extension Cord L6-30C",
+                        "imgText":"",
                         "title": "L6-30C",
                         "description": [
                             "Maximum 30A, 250V",
