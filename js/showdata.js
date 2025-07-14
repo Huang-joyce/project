@@ -242,7 +242,7 @@ $(function () {
             + '</div>'
             + '<div class="mb-5" data-aos="zoom-in" data-aos-duration="1500">'
             + '<div class="d-flex flex-wrap">'
-            + '<div class="col-12 col-md-5 mb-3 mb-md-0 px-md-3 d-flex flex-column justify-content-between">'
+            + '<div class="col-12 col-md-5 mb-3 mb-md-0 pe-md-3 d-flex flex-column justify-content-between">'
             + '<span class="d-inline-block">'
             + '<img src=' + detail.imgUrl + ' class="d-block w-100 " alt=' + detail.imgAlt + '>'
             + '</span>'
@@ -287,7 +287,7 @@ $(function () {
             })
             innerHtml += '</table>';
         }
-        innerHtml += '<div class="mb-2">';
+        innerHtml += '<div >';
         if (detail.remark) {
             var remark = detail.remark;
             remark.forEach(e => {
